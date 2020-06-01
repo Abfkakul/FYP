@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text1"
+        android:text="@string/chooseOption"
+        android:textAlignment="center"
+        android:background="@color/darkskyblue"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/call"
+        android:drawableLeft="@drawable/ic_call_white_24dp"
+        android:drawablePadding="@dimen/drawable_padding"
+        android:text="@string/call"
+        android:background="@color/darkblue"
+        style="@style/button"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/accepted"
+        android:drawableLeft="@drawable/ic_check_white_24dp"
+        android:drawablePadding="@dimen/drawable_padding"
+        android:text="@string/completed"
+        android:background="@color/darkblue"
+        style="@style/button"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/accept"
+        android:drawableLeft="@drawable/ic_add_alert_white_24dp"
+        android:drawablePadding="@dimen/drawable_padding"
+        android:text="@string/accept"
+        android:background="@color/darkred"
+        style="@style/button"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reject"
+        android:drawableLeft="@drawable/ic_add_alert_white_24dp"
+        android:drawablePadding="@dimen/drawable_padding"
+        android:text="@string/reject"
+        android:background="@color/darkred"
+        style="@style/button"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cancel"
+        android:text="@string/cancel"
+        style="@style/navbarSeagreen"/>
+</LinearLayout>

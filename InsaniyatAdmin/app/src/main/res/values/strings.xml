@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name" tools:ignore="ExtraTranslation">Insaniyat Admin</string>
+
+    <string name="login">Login</string>
+    <string name="signup">Sign up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="phone">Phone Number</string>
+    <string name="name">Name</string>
+    <string name="logout">Logout</string>
+    <string name="ambulance">Ambulance</string>
+    <string name="mealdonation">Meal Donation</string>
+    <string name="monetarydonation">Monetary Donation</string>
+    <string name="bloodDonation">Blood Donation</string>
+    <string name="userHome">User Home</string>
+    <string name="heading">Welcome to Insaniyat!</string>
+    <string name="RandomMealDonation">Random Meal Donation</string>
+    <string name="dastarkhwan">Dastarkhwan</string>
+    <string name="mealdonate">Donate Meal</string>
+    <string name="servings">Number of servings</string>
+    <string name="date">Date</string>
+    <string name="home">Home</string>
+    <string name="back">Back</string>
+    <string name="pendingApprovals">Pending Approvals</string>
+    <string name="direction">Directions</string>
+    <string name="completed">Completed</string>
+    <string name="cancel">Cancel</string>
+    <string name="call">Call</string>
+    <string name="insaniyatadmin">Insaniyat Admin</string>
+    <string name="morgueRequests">Morgue Requests</string>
+    <string name="chooseOption">Choose Option</string>
+    <string name="reject">Reject</string>
+    <string name="accept">Accept</string>
+    <string name="donations">Donations</string>
+    <string name="admin">Welfare Admin</string>
+    <string name="moneydonation">Money Donation</string>
+    <string name="moneydonations">Money Donations</string>
+    <string name="mealdonations">Meal Donations</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

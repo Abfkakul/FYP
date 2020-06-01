@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DonationFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".DonationActivity"
+        android:background="@color/black">
+
+
+<!--        <LinearLayout-->
+<!--            android:layout_marginTop="2dp"-->
+<!--            android:layout_marginBottom="2dp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:background="@color/darkskyblue">-->
+
+
+<!--            <ImageView-->
+<!--                android:id="@+id/refresh"-->
+<!--                style="@style/heading"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_weight="2"-->
+<!--                android:src="@drawable/ic_refresh_white_24dp"-->
+<!--                android:contentDescription="TODO" />-->
+<!--        </LinearLayout>-->
+
+        <ListView
+            android:id="@+id/donationsList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/darkskyblue"
+            style="@style/listItem">
+
+        </ListView>
+
+    </LinearLayout>
+</FrameLayout>

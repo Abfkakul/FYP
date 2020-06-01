@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.android.insaniyat.HomeFragment"
+        android:label="User Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_ambulance"
+        android:name="com.example.android.insaniyat.AmbulanceFragment"
+        android:label="Ambulance"
+        tools:layout="@layout/fragment_ambulance" />
+    <fragment
+        android:id="@+id/nav_volunteer_meal_donation"
+        android:name="com.example.android.insaniyat.VolunteerMealDonationFragment"
+        android:label="Volunteer Meal Donation"
+        tools:layout="@layout/fragment_volunteer_meal_donation" />
+    <fragment
+        android:id="@+id/nav_welfare_meal_donation"
+        android:name="com.example.android.insaniyat.WelfareMealDonationFragment"
+        android:label="Dastarkhwan Meal Donation"
+        tools:layout="@layout/fragment_welfare_meal_donation" />
+    <fragment
+        android:id="@+id/nav_blood_donation"
+        android:name="com.example.android.insaniyat.BloodDonationFragment"
+        android:label="Blood Donation"
+        tools:layout="@layout/fragment_blood_donation" />
+    <fragment
+        android:id="@+id/nav_donation"
+        android:name="com.example.android.insaniyat.DonationFragment"
+        android:label="General Donation"
+        tools:layout="@layout/fragment_donation" />
+    <fragment
+        android:id="@+id/nav_monetary_donation"
+        android:name="com.example.android.insaniyat.MonetaryDonationFragment"
+        android:label="Monetary Donation"
+        tools:layout="@layout/fragment_monetary_donation" />
+    <fragment
+        android:id="@+id/nav_morgue"
+        android:name="com.example.android.insaniyat.MorgueFragment"
+        android:label="Morgue"
+        tools:layout="@layout/fragment_morgue" />
+    <fragment
+        android:id="@+id/nav_volunteer_donation"
+        android:name="com.example.android.insaniyat.VolunteerDonationFragment"
+        android:label="@string/volunteerdonation"
+        tools:layout="@layout/fragment_volunteer_donation" />
+    <fragment
+        android:id="@+id/nav_welfare_donation"
+        android:name="com.example.android.insaniyat.WelfareDonationFragment"
+        android:label="@string/welfaredonation"
+        tools:layout="@layout/fragment_welfare_donation" />
+</navigation>

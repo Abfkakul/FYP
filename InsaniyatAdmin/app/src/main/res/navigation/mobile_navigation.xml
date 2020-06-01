@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.android.insaniyatadmin.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_pending_approvals"
+        android:name="com.example.android.insaniyatadmin.PendingApprovalsFragment"
+        android:label="@string/pendingApprovals"
+        tools:layout="@layout/fragment_pending_approvals" />
+    <fragment
+        android:id="@+id/nav_dastarkhwan"
+        android:name="com.example.android.insaniyatadmin.DastarkhwanFragment"
+        android:label="@string/dastarkhwan"
+        tools:layout="@layout/fragment_dastarkhwan" />
+    <fragment
+        android:id="@+id/nav_donations"
+        android:name="com.example.android.insaniyatadmin.DonationFragment"
+        android:label="@string/donations"
+        tools:layout="@layout/fragment_donation" />
+    <fragment
+        android:id="@+id/nav_morgue"
+        android:name="com.example.android.insaniyatadmin.MorgueFragment"
+        android:label="@string/morgueRequests"
+        tools:layout="@layout/fragment_morgue" />
+    <fragment
+        android:id="@+id/nav_monetary_donation"
+        android:name="com.example.android.insaniyatadmin.MonetaryDonationFragment"
+        android:label="@string/monetarydonation"
+        tools:layout="@layout/fragment_monetary_donation" />
+
+</navigation>

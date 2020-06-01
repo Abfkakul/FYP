@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_pending_approvals"
+            android:icon="@drawable/ic_chevron_right_black_24dp"
+            android:title="@string/pendingApprovals" />
+        <item
+            android:id="@+id/nav_blood_donations"
+            android:icon="@drawable/ic_chevron_right_black_24dp"
+            android:title="@string/bloodDonation" />
+        <item
+            android:id="@+id/nav_meal_donations"
+            android:icon="@drawable/ic_chevron_right_black_24dp"
+            android:title="@string/mealdonation" />
+        <item
+            android:id="@+id/nav_donations"
+            android:icon="@drawable/ic_chevron_right_black_24dp"
+            android:title="@string/donations" />
+    </group>
+</menu>

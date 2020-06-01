@@ -1,0 +1,392 @@
+-- Merging decision tree log ---
+manifest
+ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:2:1-33:12
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\538a5966e9b26bd3dc78e91066dc9d53\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-ui:2.2.2] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\84f6a160b67b1cab87a66912817ce079\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\72052352f426332cace3ac1abfc26757\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\e1b5cd0398aff73759961d9f2b083bed\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\93847d13d85f6fa25453dc5ba20680cd\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\a47f151b5994f20d796dd453b588b2de\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment:2.2.2] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\654ecf86219e5952bb406bc74cc50732\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\510c44162b7281631760505d669f0b6c\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1523bb4127f6f7e77b8c4a1d7a67d601\AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\92f60a074142b38ca1e6c292c2bf6db0\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\026536b2ea82a151739632f685c7d021\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\ebe5f528346c16a06e9c219f48bdf8c2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\59cf470a66990029c2b1f73f84347895\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\79aea39b6a2c52c46812f8aef3ff121a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\3ed26056c9271c306210305d7a6582bb\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\b152c83f6ff4869c30bd42c9c6f317fd\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\c9307808f61456f6d0336c3cbb2f2cce\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\3d8ca22ca226bbaaa9288b54a6ab67c6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\e9e4c30e8edbe325c5cbc15c92e37480\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\2224e6d95b94a334162c49787bdf73a3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\aa1876706fd5a3160689006f3a30e319\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\23a6e605f99cf5ac0a5263107ff8670c\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\f8d0122ee6de6b5871879dbf9f9477f6\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\7e1974b96830f99a7bed17860761c971\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\4106fd2a7f76aac0e0c4308f1b19a96b\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\282a0ecba3dc6df85feb92a923d8fc20\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\f3d15e3f5028ec3693acebbb4c68f5d2\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\b301dff71206c7563c8cd17c975796bf\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\18eaa2b56618b004acfe6f31b9f5d627\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\d95754937ec6cf3ebfadb8f7d8817cff\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\0bbaf97e69e65dc8a045e2da7db85bb9\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\a513f455f80c8d6b5fb636d595a04efe\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\968085e29d59973095740707c6e3bdea\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\2b4c5236cf8cb8739c5f20a7c30f5090\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\b7eba73fda8008750f4bbae67503b353\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.2.2] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1390908d74984290986406328683de54\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\ac140fd8c8c3a2b0edecf515de182dc6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.2.2] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\e6fa266e0cb8986a81e5358f7e674176\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\01423f166136421616cca4f66dfeb3a0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\5dc07afb47bc29e37f046cc1921c174a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\cf93b52c4e20a968fb607eea7318c7ef\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\aeedb38c26920f8bf89ea810c290f968\AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\ef199a240297a7d5b798eb5ea89abf78\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\843c53d6cd30ba428272b88bcf2c394c\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\4d264f093de072d5567d1da5890d2e06\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\70d964eb605f965d6fa8ac6a581411d6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\0e6d2c4ad6a616b77414447eaa849b69\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\2a64269d071571f2b1cf28f2d993492f\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\26330d129e4a2f1de59456f839ab173c\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\de0bd4788cccbb4acc2293fc1ccb2aff\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\bac05602de8d50fee90483aed9abe713\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\47417dd0de4e3d9310168edc62a2c63f\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\ee1bbeebd83d335014f85d082fbe9db8\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\fc62f1808deb84fc1eb32fc56010dbe8\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\0890a35cb19693b6c570e5174855839a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\45be69d46ec92ac92479bd62dc1f7031\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\db5cae10e8dff852500f9be184fa48aa\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\5bd22fbcea912f42e33f70c243236b30\AndroidManifest.xml:2:1-11:12
+MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\3211b78e4520db7a23766a3bb8241d3a\AndroidManifest.xml:2:1-13:12
+INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:2:1-33:12
+	package
+		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:3:5-44
+		INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml
+		INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml
+		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:2:1-33:12
+		INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml
+		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:2:1-33:12
+		INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:5:22-76
+application
+ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:7:5-31:19
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\72052352f426332cace3ac1abfc26757\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\72052352f426332cace3ac1abfc26757\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\93847d13d85f6fa25453dc5ba20680cd\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\93847d13d85f6fa25453dc5ba20680cd\AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\510c44162b7281631760505d669f0b6c\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\510c44162b7281631760505d669f0b6c\AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1523bb4127f6f7e77b8c4a1d7a67d601\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1523bb4127f6f7e77b8c4a1d7a67d601\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\92f60a074142b38ca1e6c292c2bf6db0\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\92f60a074142b38ca1e6c292c2bf6db0\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\026536b2ea82a151739632f685c7d021\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\026536b2ea82a151739632f685c7d021\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\23a6e605f99cf5ac0a5263107ff8670c\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\23a6e605f99cf5ac0a5263107ff8670c\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\f8d0122ee6de6b5871879dbf9f9477f6\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\f8d0122ee6de6b5871879dbf9f9477f6\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\7e1974b96830f99a7bed17860761c971\AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\7e1974b96830f99a7bed17860761c971\AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\4106fd2a7f76aac0e0c4308f1b19a96b\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\4106fd2a7f76aac0e0c4308f1b19a96b\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\282a0ecba3dc6df85feb92a923d8fc20\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\282a0ecba3dc6df85feb92a923d8fc20\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\f3d15e3f5028ec3693acebbb4c68f5d2\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\f3d15e3f5028ec3693acebbb4c68f5d2\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\01423f166136421616cca4f66dfeb3a0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\01423f166136421616cca4f66dfeb3a0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\aeedb38c26920f8bf89ea810c290f968\AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\aeedb38c26920f8bf89ea810c290f968\AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\ee1bbeebd83d335014f85d082fbe9db8\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\ee1bbeebd83d335014f85d082fbe9db8\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\01423f166136421616cca4f66dfeb3a0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:11:9-41
+	android:hardwareAccelerated
+		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:9:9-44
+	android:roundIcon
+		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:13:9-54
+	android:largeHeap
+		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:12:9-33
+	android:icon
+		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:10:9-39
+	android:allowBackup
+		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:15:9-40
+activity#com.example.android.insaniyat.HomeActivity
+ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:16:9-19:68
+	android:label
+		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:18:13-56
+	android:theme
+		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:19:13-56
+	android:name
+		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:17:13-41
+activity#com.example.android.insaniyat.ProfileActivity
+ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:20:9-53
+	android:name
+		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:20:19-50
+activity#com.example.android.insaniyat.SplashActivity
+ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:21:9-27:20
+	android:name
+		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:21:19-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:22:13-26:29
+action#android.intent.action.MAIN
+ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:25:27-74
+activity#com.example.android.insaniyat.SignupActivity
+ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:28:9-52
+	android:name
+		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:28:19-49
+activity#com.example.android.insaniyat.LoginActivity
+ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:29:9-51
+	android:name
+		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:29:19-48
+activity#com.example.android.insaniyat.MainActivity
+ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:30:9-50
+	android:name
+		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:30:19-47
+uses-sdk
+INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml
+INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\538a5966e9b26bd3dc78e91066dc9d53\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\538a5966e9b26bd3dc78e91066dc9d53\AndroidManifest.xml:20:5-43
+MERGED from [androidx.navigation:navigation-ui:2.2.2] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\84f6a160b67b1cab87a66912817ce079\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.2.2] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\84f6a160b67b1cab87a66912817ce079\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\72052352f426332cace3ac1abfc26757\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\72052352f426332cace3ac1abfc26757\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\e1b5cd0398aff73759961d9f2b083bed\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\e1b5cd0398aff73759961d9f2b083bed\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\93847d13d85f6fa25453dc5ba20680cd\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\93847d13d85f6fa25453dc5ba20680cd\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\a47f151b5994f20d796dd453b588b2de\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\a47f151b5994f20d796dd453b588b2de\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.2.2] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\654ecf86219e5952bb406bc74cc50732\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.2.2] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\654ecf86219e5952bb406bc74cc50732\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\510c44162b7281631760505d669f0b6c\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\510c44162b7281631760505d669f0b6c\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1523bb4127f6f7e77b8c4a1d7a67d601\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1523bb4127f6f7e77b8c4a1d7a67d601\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\92f60a074142b38ca1e6c292c2bf6db0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\92f60a074142b38ca1e6c292c2bf6db0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\026536b2ea82a151739632f685c7d021\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\026536b2ea82a151739632f685c7d021\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\ebe5f528346c16a06e9c219f48bdf8c2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\ebe5f528346c16a06e9c219f48bdf8c2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\59cf470a66990029c2b1f73f84347895\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\59cf470a66990029c2b1f73f84347895\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\79aea39b6a2c52c46812f8aef3ff121a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\79aea39b6a2c52c46812f8aef3ff121a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\3ed26056c9271c306210305d7a6582bb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\3ed26056c9271c306210305d7a6582bb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\b152c83f6ff4869c30bd42c9c6f317fd\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\b152c83f6ff4869c30bd42c9c6f317fd\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\c9307808f61456f6d0336c3cbb2f2cce\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\c9307808f61456f6d0336c3cbb2f2cce\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\3d8ca22ca226bbaaa9288b54a6ab67c6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\3d8ca22ca226bbaaa9288b54a6ab67c6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\e9e4c30e8edbe325c5cbc15c92e37480\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\e9e4c30e8edbe325c5cbc15c92e37480\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\2224e6d95b94a334162c49787bdf73a3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\2224e6d95b94a334162c49787bdf73a3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\aa1876706fd5a3160689006f3a30e319\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\aa1876706fd5a3160689006f3a30e319\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\23a6e605f99cf5ac0a5263107ff8670c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\23a6e605f99cf5ac0a5263107ff8670c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\f8d0122ee6de6b5871879dbf9f9477f6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\f8d0122ee6de6b5871879dbf9f9477f6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\7e1974b96830f99a7bed17860761c971\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\7e1974b96830f99a7bed17860761c971\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\4106fd2a7f76aac0e0c4308f1b19a96b\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\4106fd2a7f76aac0e0c4308f1b19a96b\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\282a0ecba3dc6df85feb92a923d8fc20\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\282a0ecba3dc6df85feb92a923d8fc20\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\f3d15e3f5028ec3693acebbb4c68f5d2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\f3d15e3f5028ec3693acebbb4c68f5d2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\b301dff71206c7563c8cd17c975796bf\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\b301dff71206c7563c8cd17c975796bf\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\18eaa2b56618b004acfe6f31b9f5d627\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\18eaa2b56618b004acfe6f31b9f5d627\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\d95754937ec6cf3ebfadb8f7d8817cff\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\d95754937ec6cf3ebfadb8f7d8817cff\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\0bbaf97e69e65dc8a045e2da7db85bb9\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\0bbaf97e69e65dc8a045e2da7db85bb9\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\a513f455f80c8d6b5fb636d595a04efe\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\a513f455f80c8d6b5fb636d595a04efe\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\968085e29d59973095740707c6e3bdea\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\968085e29d59973095740707c6e3bdea\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\2b4c5236cf8cb8739c5f20a7c30f5090\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\2b4c5236cf8cb8739c5f20a7c30f5090\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\b7eba73fda8008750f4bbae67503b353\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\b7eba73fda8008750f4bbae67503b353\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.2.2] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1390908d74984290986406328683de54\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.2.2] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1390908d74984290986406328683de54\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\ac140fd8c8c3a2b0edecf515de182dc6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\ac140fd8c8c3a2b0edecf515de182dc6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.2.2] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\e6fa266e0cb8986a81e5358f7e674176\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.2.2] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\e6fa266e0cb8986a81e5358f7e674176\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\01423f166136421616cca4f66dfeb3a0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\01423f166136421616cca4f66dfeb3a0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\5dc07afb47bc29e37f046cc1921c174a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\5dc07afb47bc29e37f046cc1921c174a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\cf93b52c4e20a968fb607eea7318c7ef\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\cf93b52c4e20a968fb607eea7318c7ef\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\aeedb38c26920f8bf89ea810c290f968\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\aeedb38c26920f8bf89ea810c290f968\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\ef199a240297a7d5b798eb5ea89abf78\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\ef199a240297a7d5b798eb5ea89abf78\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\843c53d6cd30ba428272b88bcf2c394c\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\843c53d6cd30ba428272b88bcf2c394c\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\4d264f093de072d5567d1da5890d2e06\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\4d264f093de072d5567d1da5890d2e06\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\70d964eb605f965d6fa8ac6a581411d6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\70d964eb605f965d6fa8ac6a581411d6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\0e6d2c4ad6a616b77414447eaa849b69\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\0e6d2c4ad6a616b77414447eaa849b69\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\2a64269d071571f2b1cf28f2d993492f\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\2a64269d071571f2b1cf28f2d993492f\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\26330d129e4a2f1de59456f839ab173c\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\26330d129e4a2f1de59456f839ab173c\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\de0bd4788cccbb4acc2293fc1ccb2aff\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\de0bd4788cccbb4acc2293fc1ccb2aff\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\bac05602de8d50fee90483aed9abe713\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\bac05602de8d50fee90483aed9abe713\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\47417dd0de4e3d9310168edc62a2c63f\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\47417dd0de4e3d9310168edc62a2c63f\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\ee1bbeebd83d335014f85d082fbe9db8\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\ee1bbeebd83d335014f85d082fbe9db8\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\fc62f1808deb84fc1eb32fc56010dbe8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\fc62f1808deb84fc1eb32fc56010dbe8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\0890a35cb19693b6c570e5174855839a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\0890a35cb19693b6c570e5174855839a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\45be69d46ec92ac92479bd62dc1f7031\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\45be69d46ec92ac92479bd62dc1f7031\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\db5cae10e8dff852500f9be184fa48aa\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\db5cae10e8dff852500f9be184fa48aa\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\5bd22fbcea912f42e33f70c243236b30\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\5bd22fbcea912f42e33f70c243236b30\AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\3211b78e4520db7a23766a3bb8241d3a\AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\3211b78e4520db7a23766a3bb8241d3a\AndroidManifest.xml:7:5-9:41
+INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml
+INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml
+		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml
+		INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml
+		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml
+		INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1523bb4127f6f7e77b8c4a1d7a67d601\AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1523bb4127f6f7e77b8c4a1d7a67d601\AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1523bb4127f6f7e77b8c4a1d7a67d601\AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1523bb4127f6f7e77b8c4a1d7a67d601\AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1523bb4127f6f7e77b8c4a1d7a67d601\AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1523bb4127f6f7e77b8c4a1d7a67d601\AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1523bb4127f6f7e77b8c4a1d7a67d601\AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1523bb4127f6f7e77b8c4a1d7a67d601\AndroidManifest.xml:25:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1523bb4127f6f7e77b8c4a1d7a67d601\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\92f60a074142b38ca1e6c292c2bf6db0\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\92f60a074142b38ca1e6c292c2bf6db0\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\7e1974b96830f99a7bed17860761c971\AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\7e1974b96830f99a7bed17860761c971\AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1523bb4127f6f7e77b8c4a1d7a67d601\AndroidManifest.xml:35:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\7e1974b96830f99a7bed17860761c971\AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\7e1974b96830f99a7bed17860761c971\AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1523bb4127f6f7e77b8c4a1d7a67d601\AndroidManifest.xml:34:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1523bb4127f6f7e77b8c4a1d7a67d601\AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1523bb4127f6f7e77b8c4a1d7a67d601\AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1523bb4127f6f7e77b8c4a1d7a67d601\AndroidManifest.xml:37:17-109
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\92f60a074142b38ca1e6c292c2bf6db0\AndroidManifest.xml:13:5-79
+MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\3211b78e4520db7a23766a3bb8241d3a\AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\3211b78e4520db7a23766a3bb8241d3a\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\92f60a074142b38ca1e6c292c2bf6db0\AndroidManifest.xml:13:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\92f60a074142b38ca1e6c292c2bf6db0\AndroidManifest.xml:14:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\92f60a074142b38ca1e6c292c2bf6db0\AndroidManifest.xml:14:22-64
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\92f60a074142b38ca1e6c292c2bf6db0\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\92f60a074142b38ca1e6c292c2bf6db0\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\92f60a074142b38ca1e6c292c2bf6db0\AndroidManifest.xml:21:17-111
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\f8d0122ee6de6b5871879dbf9f9477f6\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\f8d0122ee6de6b5871879dbf9f9477f6\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\f8d0122ee6de6b5871879dbf9f9477f6\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\f8d0122ee6de6b5871879dbf9f9477f6\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\7e1974b96830f99a7bed17860761c971\AndroidManifest.xml:26:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\7e1974b96830f99a7bed17860761c971\AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\7e1974b96830f99a7bed17860761c971\AndroidManifest.xml:29:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\7e1974b96830f99a7bed17860761c971\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\7e1974b96830f99a7bed17860761c971\AndroidManifest.xml:27:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\f3d15e3f5028ec3693acebbb4c68f5d2\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\f3d15e3f5028ec3693acebbb4c68f5d2\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\f3d15e3f5028ec3693acebbb4c68f5d2\AndroidManifest.xml:24:13-58
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\aeedb38c26920f8bf89ea810c290f968\AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\aeedb38c26920f8bf89ea810c290f968\AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\aeedb38c26920f8bf89ea810c290f968\AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\aeedb38c26920f8bf89ea810c290f968\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\aeedb38c26920f8bf89ea810c290f968\AndroidManifest.xml:26:13-79

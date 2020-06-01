@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item android:title="@string/general">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_home"
+                    android:icon="@drawable/ic_home_white_24dp"
+                    android:title="@string/menu_home" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/welfare">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_ambulance"
+                    android:icon="@drawable/ic_keyboard_arrow_right_white_24dp"
+                    android:title="@string/ambulance" />
+                <item
+                    android:id="@+id/nav_welfare_meal_donation"
+                    android:icon="@drawable/ic_keyboard_arrow_right_white_24dp"
+                    android:title="@string/dastarkhwan" />
+                <item
+                    android:id="@+id/nav_welfare_donation"
+                    android:icon="@drawable/ic_keyboard_arrow_right_white_24dp"
+                    android:title="@string/donation" />
+                <item
+                    android:id="@+id/nav_monetary_donation"
+                    android:icon="@drawable/ic_keyboard_arrow_right_white_24dp"
+                    android:title="@string/monetarydonation" />
+                <item
+                    android:id="@+id/nav_morgue"
+                    android:icon="@drawable/ic_keyboard_arrow_right_white_24dp"
+                    android:title="@string/morgue" />
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/volunteer">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_blood_donation"
+                    android:icon="@drawable/ic_keyboard_arrow_right_white_24dp"
+                    android:title="@string/bloodDonation" />
+                <item
+                    android:id="@+id/nav_volunteer_donation"
+                    android:icon="@drawable/ic_keyboard_arrow_right_white_24dp"
+                    android:title="@string/donation" />
+                <item
+                    android:id="@+id/nav_volunteer_meal_donation"
+                    android:icon="@drawable/ic_keyboard_arrow_right_white_24dp"
+                    android:title="@string/mealdonation" />
+            </group>
+        </menu>
+    </item>
+
+<!--    <item android:title="Communicate">-->
+<!--        <menu>-->
+<!--&lt;!&ndash;            <item&ndash;&gt;-->
+<!--&lt;!&ndash;                android:id="@+id/nav_share"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:icon="@drawable/ic_menu_share"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:title="Share" />&ndash;&gt;-->
+<!--        </menu>-->
+<!--    </item>-->
+
+</menu>

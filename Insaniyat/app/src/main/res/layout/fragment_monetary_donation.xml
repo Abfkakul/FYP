@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MonetaryDonationFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MonetaryDonationActivity"
+        android:background="@color/black"
+        android:orientation="vertical">=
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/darkblue">
+
+            <EditText
+                android:layout_marginTop="100dp"
+                android:id="@+id/amount"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/donationAmount"
+                android:inputType="number"
+                style="@style/hint"/>
+
+            <Button
+                android:id="@+id/submitWelfare"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_button_register"
+                android:text="@string/send"
+                style="@style/button"
+                />
+
+            <ProgressBar
+                android:id="@+id/progressbar"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.android.insaniyatvolunteer.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_pending_approvals"
+        android:name="com.example.android.insaniyatvolunteer.PendingApprovalsFragment"
+        android:label="@string/pendingApprovals"
+        tools:layout="@layout/fragment_pending_approvals" />
+    <fragment
+        android:id="@+id/nav_blood_donations"
+        android:name="com.example.android.insaniyatvolunteer.BloodDonationFragment"
+        android:label="@string/bloodDonation"
+        tools:layout="@layout/fragment_blood_donation" />
+    <fragment
+        android:id="@+id/nav_meal_donations"
+        android:name="com.example.android.insaniyatvolunteer.MealDonationFragment"
+        android:label="@string/mealdonation"
+        tools:layout="@layout/fragment_meal_donation" />
+    <fragment
+        android:id="@+id/nav_donations"
+        android:name="com.example.android.insaniyatvolunteer.DonationFragment"
+        android:label="@string/donation"
+        tools:layout="@layout/fragment_donation" />
+
+</navigation>

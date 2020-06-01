@@ -1,0 +1,15 @@
+#Internal package file, do not edit.
+#Sat May 23 18:39:30 PKT 2020
+1.base=P\:\\8th_Semester\\FYP-II\\Projects\\Insaniyat\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
+2.path=classes2.dex
+0.baseType=DIRECTORY
+2.base=P\:\\8th_Semester\\FYP-II\\Projects\\Insaniyat\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
+2.set=DEX
+1.baseType=DIRECTORY
+count=3
+1.set=DEX
+0.path=classes.dex
+0.set=DEX
+0.base=P\:\\8th_Semester\\FYP-II\\Projects\\Insaniyat\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
+2.baseType=DIRECTORY
+1.path=classes.dex
