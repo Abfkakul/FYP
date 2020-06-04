@@ -1,5 +1,6 @@
 package com.example.android.insaniyat;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -59,6 +60,19 @@ public class AmbulanceFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+
+        openMap();
+
         return inflater.inflate(R.layout.fragment_ambulance, container, false);
+
     }
+
+    public void openMap(){
+        Intent i = new Intent(getActivity(), OpenMap.class);
+        startActivity(i);
+    }
+
+
+
+
 }

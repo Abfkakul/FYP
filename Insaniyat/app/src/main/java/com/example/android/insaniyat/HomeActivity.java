@@ -2,6 +2,7 @@ package com.example.android.insaniyat;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.Menu;
@@ -31,6 +32,11 @@ public class HomeActivity extends AppCompatActivity
 
     private AppBarConfiguration mAppBarConfiguration;
 
+
+    //for gps ( I <Anas> did it)
+    boolean isGPS;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -38,6 +44,10 @@ public class HomeActivity extends AppCompatActivity
         setContentView(R.layout.activity_home);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        //pop up of enable GPS at the user lands onto the page ( I <Anas> did it)
+        GetGPS();
+
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener()
         {
@@ -106,4 +116,23 @@ public class HomeActivity extends AppCompatActivity
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
     }
+
+    //( I <Anas> did it)
+    public void GetGPS(){
+
+        Log.d("GETGPS1","1");
+
+        new GpsUtils(this).turnGPSOn(new GpsUtils.onGpsListener() {
+            @Override
+            public void gpsStatus(boolean isGPSEnable) {
+                // turn on GPS
+                isGPS = isGPSEnable;
+                Log.d("GETGPS2","2");
+
+            }
+        });
+        Log.d("GETGPS3","3");
+
+    }
+
 }
