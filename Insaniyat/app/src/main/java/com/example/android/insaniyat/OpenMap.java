@@ -1,9 +1,11 @@
 package com.example.android.insaniyat;
 
+import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.os.Bundle;
+import android.telephony.SmsManager;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -15,6 +17,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationServices;
@@ -23,6 +26,7 @@ import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.DocumentChange;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.EventListener;
@@ -78,6 +82,9 @@ import static android.Manifest.permission.ACCESS_FINE_LOCATION;
 public class OpenMap extends AppCompatActivity implements
         OnMapReadyCallback, PermissionsListener {
 
+    //for sms
+    private static final int MY_PERMISSIONS_REQUEST_SEND_SMS =0 ;
+
     //For mapbox view
     private PermissionsManager permissionsManager;
     private MapboxMap mapboxMap;
@@ -107,9 +114,11 @@ public class OpenMap extends AppCompatActivity implements
     public double minimumDist=100.0;
     //newcode end
 
-    //fetching phone numbers
+    //fetching phone numbers and names
     public String DriverPhoneNumber;
-    public  String UserPhoneNumber; 
+    public  String UserPhoneNumber;
+    public  String UserName;
+    public  String DriverName;
 
     //for cancelling ride
     //private String driverDocID;
@@ -151,8 +160,9 @@ public class OpenMap extends AppCompatActivity implements
 
 
         //Authentication
-        final FirebaseFirestore db = FirebaseFirestore.getInstance();
+        //final FirebaseFirestore db = FirebaseFirestore.getInstance();
         mFirebaseAuth = FirebaseAuth.getInstance();
+
 
         //Firestore
         mFireStore =FirebaseFirestore.getInstance();
@@ -214,7 +224,12 @@ public class OpenMap extends AppCompatActivity implements
 
                                         //new if condition
                                         if(docID != null){
-                                            //new code2 start
+
+                                            //get phoneNumbers of user and driver, and other logics
+                                            runMultipleQuerries();
+
+
+                                            /*//new code2 start
 
                                             // Set "Status" to "Unavailable" of booked driver
                                             DocumentReference washingtonRef = mFireStore.collection("Ambulance Drivers")
@@ -285,7 +300,8 @@ public class OpenMap extends AppCompatActivity implements
                                                         }
                                                     });
 
-                                            //new code2 end
+                                            //new code2 end*/
+
                                         }
 
                                         else{
@@ -316,6 +332,22 @@ public class OpenMap extends AppCompatActivity implements
                                     //to have accurate minimum distance next time
                                     minimumDist=100.01;
                                     //newcode3 end
+
+
+                                    //Message code starts here
+                                   /*
+
+                                    //For user
+                                    SmsManager smsManager = SmsManager.getDefault();
+                                    smsManager.sendTextMessage(""+UserPhoneNumber, null, "Your ambulance has been booked. Driver Name is "+DriverName+".\n You can contact Ambulance driver on this number "+DriverPhoneNumber+".", null, null);
+
+                                    //For Driver
+
+                                    smsManager.sendTextMessage(""+DriverPhoneNumber, null, ""+UserName+" has booked the ambulance.\nYou can contact on this number "+UserPhoneNumber+".", null, null);
+                                    Toast.makeText(OpenMap.this, "SMS Sent Successfully", Toast.LENGTH_SHORT).show();
+
+                                    */
+                                    //Message code ends here
 
 
                                     //newcode4
@@ -588,8 +620,152 @@ public class OpenMap extends AppCompatActivity implements
 
     }
 
-    public void getPhoneNumber(){
+    public void runMultipleQuerries(){
 
+        final FirebaseUser mFirebaseUser = mFirebaseAuth.getCurrentUser();
+
+        //Log.d("User Id: ",""+mFirebaseUser.getEmail());
+
+        //get user phone number and name
+        mFireStore.collection("Users")
+                .whereEqualTo("email", ""+mFirebaseUser.getEmail())
+                .get()
+                .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+                    @Override
+                    public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                        if (task.isSuccessful()) {
+                            for (QueryDocumentSnapshot document : task.getResult()) {
+
+                                //Log.d("USer data",""+document.getData());
+                                UserPhoneNumber= document.getData().get("phoneNumber").toString();
+                                UserName = document.getData().get("name").toString();
+                                Log.d("User number: ",""+UserPhoneNumber);
+                                Log.d("User name: ",""+UserName);
+
+                            }
+
+                            //get driver phone number and name
+
+                            mFireStore.collection("Ambulance Drivers")
+                                    .whereEqualTo("email", ""+docID)
+                                    .get()
+                                    .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+                                        @Override
+                                        public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                                            if (task.isSuccessful()) {
+                                                for (QueryDocumentSnapshot document : task.getResult()) {
+
+                                                    DriverPhoneNumber= document.getData().get("phoneNumber").toString();
+                                                    DriverName = document.getData().get("name").toString();
+                                                    Log.d("Driver number: ",""+DriverPhoneNumber);
+                                                    Log.d("Driver name: ",""+DriverName);
+
+
+                                                }
+
+
+                                                //new new
+
+                                                //new code2 start
+
+                                                // Set "Status" to "Unavailable" of booked driver
+                                                DocumentReference washingtonRef = mFireStore.collection("Ambulance Drivers")
+                                                        .document(docID.toString());
+
+                                                washingtonRef
+                                                        .update("status", "Unavailable")
+                                                        .addOnSuccessListener(new OnSuccessListener<Void>() {
+                                                            @Override
+                                                            public void onSuccess(Void aVoid) {
+                                                                //Toast.makeText(OpenMap.this, "DocumentSnapshot successfully updated!", Toast.LENGTH_SHORT).show();
+                                                                Log.d("status:::","Updated to unavailable");
+
+
+                                                                //newcode
+                                                                Log.d("in !null ID",".."+docID);
+
+                                                                // maybe need to put it in else condition
+                                                                Toast.makeText(OpenMap.this, "Your Ambulance driver ID is: "+docID, Toast.LENGTH_SHORT).show();
+
+
+                                                                //making a new collection
+                                                                //store data of booked driver and customer in new collection
+                                                                Map<String, Object> Ride = new HashMap<>();
+                                                                Ride.put("AmbulanceDriverID", docID);
+                                                                Ride.put("U_Latitude",latitude );
+                                                                Ride.put("U_Longitude",longitutde);
+                                                                Ride.put("D_Latitude",docLat);
+                                                                Ride.put("D_Longitude",docLong);
+                                                                Ride.put("D_Name",docName);
+                                                                Ride.put("D_PhoneNumber",DriverPhoneNumber);
+                                                                Ride.put("D_Name",DriverName);
+                                                                Ride.put("U_PhoneNumber",UserPhoneNumber);
+                                                                Ride.put("U_Name",UserName);
+
+
+
+                                                                mFireStore.collection("AssignedRides")
+                                                                        .add(Ride)
+                                                                        .addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
+                                                                            @Override
+                                                                            public void onSuccess(DocumentReference documentReference) {
+                                                                                Log.d("Data added::","new colection of assigned drivers");
+                                                                                //Toast.makeText(OpenMap.this, "DocumentSnapshot successfully written!", Toast.LENGTH_SHORT).show();
+
+                                                                                //newcode4
+                                                                                //StartNavigation();
+                                                                                //newcode4 end
+
+                                                                                //for listener
+                                                                                //attachListener();
+
+                                                                            }
+                                                                        })
+                                                                        .addOnFailureListener(new OnFailureListener() {
+                                                                            @Override
+                                                                            public void onFailure(@NonNull Exception e) {
+                                                                                Log.d("Data added::","error writing document in new colection of assigned drivers");
+                                                                                //Toast.makeText(OpenMap.this, "Error writing document "+e, Toast.LENGTH_SHORT).show();
+
+                                                                            }
+                                                                        });
+
+
+                                                            }
+                                                        })
+                                                        .addOnFailureListener(new OnFailureListener() {
+                                                            @Override
+                                                            public void onFailure(@NonNull Exception e) {
+
+                                                                //Toast.makeText(OpenMap.this, "Error updating document", Toast.LENGTH_SHORT).show();
+                                                                Log.d("status:::","Error updating document in unavailable");
+
+                                                            }
+                                                        });
+
+                                                //new code2 end
+
+                                                //new new
+
+
+
+
+
+                                            } else {
+                                                Log.d("Status","Could not fetch Driver Phone number");
+                                                Log.d("Status","Error getting documents: "+task.getException());
+                                            }
+                                        }
+                                    });
+
+
+
+                        } else {
+                            Log.d("Status","Could not fetch User phone number");
+                            Log.d("Status","Error getting documents: "+task.getException());
+                        }
+                    }
+                });
     }
 
 
@@ -617,6 +793,10 @@ public class OpenMap extends AppCompatActivity implements
 
 
     //My customize functions end //////////////////////////////////
+
+
+
+
 
 
     @Override
@@ -661,6 +841,7 @@ public class OpenMap extends AppCompatActivity implements
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         permissionsManager.onRequestPermissionsResult(requestCode, permissions, grantResults);
+
     }
 
     @Override
