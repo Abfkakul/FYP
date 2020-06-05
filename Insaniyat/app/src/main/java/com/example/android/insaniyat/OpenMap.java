@@ -107,6 +107,10 @@ public class OpenMap extends AppCompatActivity implements
     public double minimumDist=100.0;
     //newcode end
 
+    //fetching phone numbers
+    public String DriverPhoneNumber;
+    public  String UserPhoneNumber; 
+
     //for cancelling ride
     //private String driverDocID;
     private String assignedDocID;
@@ -152,6 +156,9 @@ public class OpenMap extends AppCompatActivity implements
 
         //Firestore
         mFireStore =FirebaseFirestore.getInstance();
+
+
+        //get phone number of user and driver
 
         //Toggle button starting the service of update location
         ToggleButton toggle = findViewById(R.id.toggle);
@@ -238,6 +245,7 @@ public class OpenMap extends AppCompatActivity implements
                                                             Ride.put("D_Latitude",docLat);
                                                             Ride.put("D_Longitude",docLong);
                                                             Ride.put("D_Name",docName);
+
                                                             mFireStore.collection("AssignedRides")
                                                                     .add(Ride)
                                                                     .addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
@@ -245,9 +253,13 @@ public class OpenMap extends AppCompatActivity implements
                                                                         public void onSuccess(DocumentReference documentReference) {
                                                                             Log.d("Data added::","new colection of assigned drivers");
                                                                             //Toast.makeText(OpenMap.this, "DocumentSnapshot successfully written!", Toast.LENGTH_SHORT).show();
+
                                                                             //newcode4
-                                                                            StartNavigation();
+                                                                            //StartNavigation();
                                                                             //newcode4 end
+
+                                                                            //for listener
+                                                                            //attachListener();
 
                                                                         }
                                                                     })
@@ -278,8 +290,10 @@ public class OpenMap extends AppCompatActivity implements
 
                                         else{
                                             // When no driver is Online (not sure)
+                                            Log.d("else:...... ","No Driver Available");
                                             Toast.makeText(OpenMap.this, "Sorry, No driver is available", Toast.LENGTH_SHORT).show();
                                             restartActivity();
+                                            return;
                                         }
 
                                         //new if condition ends
@@ -305,13 +319,13 @@ public class OpenMap extends AppCompatActivity implements
 
 
                                     //newcode4
-                                    //StartNavigation();
+                                    StartNavigation();
                                     //newcode4 end
-
-
 
                                     //for listener
                                     attachListener();
+
+
 
                                 }
                             });
@@ -365,29 +379,6 @@ public class OpenMap extends AppCompatActivity implements
                                                         Log.d("Status","Document deleted "+assignedDocID);
                                                         Log.d("Status","DocumentSnapshot successfully deleted!");
 
-                                                        //querry 3
-                                                        // Set "Status" to "available" of ambulance driver when ride is ended
-                                                        DocumentReference washingtonRef = mFireStore.collection("Ambulance Drivers")
-                                                                .document(docID.toString());
-
-                                                        washingtonRef
-                                                                .update("status", "Available")
-                                                                .addOnSuccessListener(new OnSuccessListener<Void>() {
-                                                                    @Override
-                                                                    public void onSuccess(Void aVoid) {
-                                                                        Log.d("Status:","Updated to Available");
-
-                                                                    }
-                                                                })
-                                                                .addOnFailureListener(new OnFailureListener() {
-                                                                    @Override
-                                                                    public void onFailure(@NonNull Exception e) {
-
-                                                                        Log.d("status:","Error updating document to Available");
-
-                                                                    }
-                                                                });
-                                                        //end querry 3
 
                                                     }
                                                 })
@@ -594,6 +585,10 @@ public class OpenMap extends AppCompatActivity implements
     public void detachListener(){
         noteListener.remove();
         Log.d("Listener: ","Removed");
+
+    }
+
+    public void getPhoneNumber(){
 
     }
 
