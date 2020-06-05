@@ -1,10 +1,10 @@
-#Mon May 25 21:06:24 PKT 2020
+#Thu Jun 04 19:46:50 PKT 2020
 path.2=classes2.dex
 path.1=classes.dex
 path.0=classes.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.2=P\:\\8th_Semester\\FYP-II\\Projects\\Insaniyat\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
-base.1=P\:\\8th_Semester\\FYP-II\\Projects\\Insaniyat\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
-base.0=P\:\\8th_Semester\\FYP-II\\Projects\\Insaniyat\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
+base.2=/home/anas/AndroidStudioProjects/FYP/Insaniyat/app/build/intermediates/dex/debug/mergeExtDexDebug/out
+base.1=/home/anas/AndroidStudioProjects/FYP/Insaniyat/app/build/intermediates/dex/debug/mergeProjectDexDebug/out
+base.0=/home/anas/AndroidStudioProjects/FYP/Insaniyat/app/build/intermediates/dex/debug/mergeExtDexDebug/out

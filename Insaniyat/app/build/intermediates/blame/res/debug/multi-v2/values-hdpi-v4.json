@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "P:\\8th_Semester\\FYP-II\\Projects\\Insaniyat\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "outputFile": "/home/anas/AndroidStudioProjects/FYP/Insaniyat/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Skuma\\.gradle\\caches\\transforms-2\\files-2.1\\e1b5cd0398aff73759961d9f2b083bed\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "source": "/home/anas/.gradle/caches/transforms-2/files-2.1/4c1ff67e3e0f21cb75a1b8024ca394e1/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,110",
+                        "endColumns": "54,47",
+                        "endOffsets": "105,153"
+                    }
+                },
+                {
+                    "source": "/home/anas/.gradle/caches/transforms-2/files-2.1/fc829a94bd0822a3e09f360b0ac747e5/res/values-hdpi-v4/values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -12,6 +22,14 @@
                         "endLines": "6",
                         "endColumns": "13",
                         "endOffsets": "327"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "158",
+                        "endLines": "8",
+                        "endColumns": "13",
+                        "endOffsets": "430"
                     }
                 }
             ]

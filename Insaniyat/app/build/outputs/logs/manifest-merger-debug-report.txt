@@ -1,392 +1,522 @@
 -- Merging decision tree log ---
 manifest
-ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:2:1-33:12
-MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\538a5966e9b26bd3dc78e91066dc9d53\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-ui:2.2.2] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\84f6a160b67b1cab87a66912817ce079\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.material:material:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\72052352f426332cace3ac1abfc26757\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\e1b5cd0398aff73759961d9f2b083bed\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\93847d13d85f6fa25453dc5ba20680cd\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\a47f151b5994f20d796dd453b588b2de\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-fragment:2.2.2] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\654ecf86219e5952bb406bc74cc50732\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\510c44162b7281631760505d669f0b6c\AndroidManifest.xml:17:1-27:12
-MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1523bb4127f6f7e77b8c4a1d7a67d601\AndroidManifest.xml:17:1-42:12
-MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\92f60a074142b38ca1e6c292c2bf6db0\AndroidManifest.xml:2:1-26:12
-MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\026536b2ea82a151739632f685c7d021\AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\ebe5f528346c16a06e9c219f48bdf8c2\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\59cf470a66990029c2b1f73f84347895\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\79aea39b6a2c52c46812f8aef3ff121a\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.media:media:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\3ed26056c9271c306210305d7a6582bb\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\b152c83f6ff4869c30bd42c9c6f317fd\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\c9307808f61456f6d0336c3cbb2f2cce\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\3d8ca22ca226bbaaa9288b54a6ab67c6\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\e9e4c30e8edbe325c5cbc15c92e37480\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\2224e6d95b94a334162c49787bdf73a3\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\aa1876706fd5a3160689006f3a30e319\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\23a6e605f99cf5ac0a5263107ff8670c\AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\f8d0122ee6de6b5871879dbf9f9477f6\AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\7e1974b96830f99a7bed17860761c971\AndroidManifest.xml:15:1-39:12
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\4106fd2a7f76aac0e0c4308f1b19a96b\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\282a0ecba3dc6df85feb92a923d8fc20\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\f3d15e3f5028ec3693acebbb4c68f5d2\AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\b301dff71206c7563c8cd17c975796bf\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\18eaa2b56618b004acfe6f31b9f5d627\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\d95754937ec6cf3ebfadb8f7d8817cff\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\0bbaf97e69e65dc8a045e2da7db85bb9\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\a513f455f80c8d6b5fb636d595a04efe\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\968085e29d59973095740707c6e3bdea\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\2b4c5236cf8cb8739c5f20a7c30f5090\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\b7eba73fda8008750f4bbae67503b353\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-runtime:2.2.2] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1390908d74984290986406328683de54\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\ac140fd8c8c3a2b0edecf515de182dc6\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-common:2.2.2] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\e6fa266e0cb8986a81e5358f7e674176\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\01423f166136421616cca4f66dfeb3a0\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\5dc07afb47bc29e37f046cc1921c174a\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\cf93b52c4e20a968fb607eea7318c7ef\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\aeedb38c26920f8bf89ea810c290f968\AndroidManifest.xml:17:1-32:12
-MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\ef199a240297a7d5b798eb5ea89abf78\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\843c53d6cd30ba428272b88bcf2c394c\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\4d264f093de072d5567d1da5890d2e06\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\70d964eb605f965d6fa8ac6a581411d6\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\0e6d2c4ad6a616b77414447eaa849b69\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\2a64269d071571f2b1cf28f2d993492f\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\26330d129e4a2f1de59456f839ab173c\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\de0bd4788cccbb4acc2293fc1ccb2aff\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\bac05602de8d50fee90483aed9abe713\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\47417dd0de4e3d9310168edc62a2c63f\AndroidManifest.xml:15:1-23:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\ee1bbeebd83d335014f85d082fbe9db8\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\fc62f1808deb84fc1eb32fc56010dbe8\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\0890a35cb19693b6c570e5174855839a\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\45be69d46ec92ac92479bd62dc1f7031\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\db5cae10e8dff852500f9be184fa48aa\AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\5bd22fbcea912f42e33f70c243236b30\AndroidManifest.xml:2:1-11:12
-MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\3211b78e4520db7a23766a3bb8241d3a\AndroidManifest.xml:2:1-13:12
-INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:2:1-33:12
+ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:2:1-37:12
+MERGED from [androidx.multidex:multidex:2.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/6c6f6b302381c5f75e27300dc731a987/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-ui:2.2.2] /home/anas/.gradle/caches/transforms-2/files-2.1/92d5eb81b9ff3b79e0fa82c3d30ef718/AndroidManifest.xml:17:1-24:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-navigation-ui:0.42.6] /home/anas/.gradle/caches/transforms-2/files-2.1/4c1ff67e3e0f21cb75a1b8024ca394e1/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.material:material:1.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/fc033dd333cdf3e70e18ba758ebcc67a/AndroidManifest.xml:17:1-24:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-navigation:0.42.6] /home/anas/.gradle/caches/transforms-2/files-2.1/794c1d5ec6e1be38608cd975427b2f20/AndroidManifest.xml:2:1-17:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-annotation-v8:0.7.0] /home/anas/.gradle/caches/transforms-2/files-2.1/f1233a59cdedb6985300bf300ed37ba8/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/fc829a94bd0822a3e09f360b0ac747e5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/anas/.gradle/caches/transforms-2/files-2.1/578c06568f09efa826b73d6ac50d075e/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/a94fb9eb4dfdc408705c5fd8399b3927/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment:2.2.2] /home/anas/.gradle/caches/transforms-2/files-2.1/834482338d45e5b382c4b393849d7e80/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/a78780d14f93cf894f5b8b42c8bc46e7/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/f92c00873769a0db2279f5f6d86499f7/AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/anas/.gradle/caches/transforms-2/files-2.1/e2bcb699c969e7d34931557a898805f7/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/11afeaccb9a6bc74e3c16b314588331b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/cb0527b14afd7f41cfe3dbb51f6e2780/AndroidManifest.xml:2:1-21:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/fe067d60faf80e2d090118688d76fd55/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/d34f141bf9c2cc5a4952f66aecf5d132/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/2a2c042d06c5731861297ec2fd98ff3d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/fd1f56f570c64fdea9f8b245a905182f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/anas/.gradle/caches/transforms-2/files-2.1/e8412505c65d7f1e16e4c0fd3a525c7a/AndroidManifest.xml:2:1-29:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/d534e16d0a6a0b905a5f743609006717/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/266f6567b3635a880ad2b236d67b3cde/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/9b01e89f25de1327e3eb5431d58ba98b/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/e9e8234290ea05be08dc50c4f612b188/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/c9982891ba884cdd60a620a54358dbf3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/e60737d14413fe182903a9f54dd3deb2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/c23a6dba684eb6a68ab08663e1050f63/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/623dd2982acf1c5cc3f67bbe9bd999ab/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/anas/.gradle/caches/transforms-2/files-2.1/04ed0f84681861b9b25e1ed40b75278e/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/0ba0d4083dcceb3fd0cdd04e982d6498/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/457865b8f9675d7ee9dbd83f41cef143/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/db47cfea951125d4859a9927e7baf84b/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.2.4] /home/anas/.gradle/caches/transforms-2/files-2.1/280479cbce1bdb66d4641ce23030e247/AndroidManifest.xml:17:1-24:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.7.0] /home/anas/.gradle/caches/transforms-2/files-2.1/387ae703c406bef6fd0147b587363cea/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/0311dede7ea7ae3456e22871de2d0340/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/0101084feba70a39eb41ba04a461829f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/e2e99e6635d1290aa637fb98eef55958/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/6c7ef2e286c32e50201cd25e85744b6e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/ab93e624f5185322e875651d1671f017/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/dc10379e4f5c0c8f0586bb24b8ea3a7e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/8a7eaa3916e9554b02dfd8bdaedf7d61/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.2.2] /home/anas/.gradle/caches/transforms-2/files-2.1/e43b55caae4c878f09c94fb05b6273d2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/7288379f1bbc473dd230caed516485a5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.2.2] /home/anas/.gradle/caches/transforms-2/files-2.1/99d47c20f64088f3529a922a4d759640/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/02d4b26d956407d787eb52d43596f3cf/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/6eef966562437eaa877decca0f5ecfaf/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/c7ac3db64841ffa840c3e77997f42bf1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/bad0edef80d600166563d340e6238c11/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/d17a36e3749e9d8dab24111550ba6743/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/ae8360db7682a28806654c12f1d05273/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/e80e0c98d1b912600ee7e0af0d6f441c/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/efbf5fd8a852039ccd0eff8452d17e57/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/21a99c7b15c2a0e5318ea1ffc143d1ce/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/b369d2f634cd5d2770a34a9d13819605/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/00b18f423049abc40f59050a51db11c8/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/ded8d5dc3ba75028390ff36fa6d82cf2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/565eb84fa194ba887a2ba398a60cebff/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/e8a3696601615cf369bfadfd4f9eb3b6/AndroidManifest.xml:15:1-23:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-accounts:0.7.0] /home/anas/.gradle/caches/transforms-2/files-2.1/859e831c5b3878ed4d51c5555b757c8f/AndroidManifest.xml:2:1-9:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/anas/.gradle/caches/transforms-2/files-2.1/1bea19056262e5bf9f247460c6a181e2/AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/11e3c1698a9e3d281d31a9d5aa1e2b8e/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/c4c094137efcb25a76d6f1941b4a28fd/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/0756b732dd0afc1259463536b61c5967/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/972dedff6ff5258a27d6a01596bf175e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/e841612d7881a97efe1fa6065a56e31c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/bbe46ef293bd4ce0b54ab534687978b8/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/e03514f127eefe4d923505a0b5f67565/AndroidManifest.xml:2:1-11:12
+MERGED from [io.grpc:grpc-android:1.21.0] /home/anas/.gradle/caches/transforms-2/files-2.1/f48b2384b108785df6a57e49c40aa4ad/AndroidManifest.xml:2:1-13:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:2.0.1] /home/anas/.gradle/caches/transforms-2/files-2.1/439980f090bcb602c707f54b29b21f86/AndroidManifest.xml:2:1-13:12
+MERGED from [com.mapbox.navigator:mapbox-navigation-native:7.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/6310251edeedadf67bbe9c51cb806811/AndroidManifest.xml:2:1-9:12
+MERGED from [com.jakewharton.timber:timber:4.7.1] /home/anas/.gradle/caches/transforms-2/files-2.1/ca3fc1ca3e7e3cc3dc9052babe77a74b/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:2:1-37:12
 	package
-		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:3:5-44
-		INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml
-		INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml
+		ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:3:5-44
+		INJECTED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml
+		INJECTED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml
-		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:2:1-33:12
-		INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml
+		INJECTED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml
+		ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:2:1-37:12
+		INJECTED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml
-		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:2:1-33:12
-		INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml
+		INJECTED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml
+		ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:2:1-37:12
+		INJECTED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:5:5-79
+ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:5:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-navigation:0.42.6] /home/anas/.gradle/caches/transforms-2/files-2.1/794c1d5ec6e1be38608cd975427b2f20/AndroidManifest.xml:10:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-navigation:0.42.6] /home/anas/.gradle/caches/transforms-2/files-2.1/794c1d5ec6e1be38608cd975427b2f20/AndroidManifest.xml:10:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/cb0527b14afd7f41cfe3dbb51f6e2780/AndroidManifest.xml:19:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/cb0527b14afd7f41cfe3dbb51f6e2780/AndroidManifest.xml:19:5-79
 	android:name
-		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:5:22-76
-application
-ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:7:5-31:19
-MERGED from [com.google.android.material:material:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\72052352f426332cace3ac1abfc26757\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\72052352f426332cace3ac1abfc26757\AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\93847d13d85f6fa25453dc5ba20680cd\AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\93847d13d85f6fa25453dc5ba20680cd\AndroidManifest.xml:9:5-20
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\510c44162b7281631760505d669f0b6c\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\510c44162b7281631760505d669f0b6c\AndroidManifest.xml:24:5-25:19
-MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1523bb4127f6f7e77b8c4a1d7a67d601\AndroidManifest.xml:23:5-40:19
-MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1523bb4127f6f7e77b8c4a1d7a67d601\AndroidManifest.xml:23:5-40:19
-MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\92f60a074142b38ca1e6c292c2bf6db0\AndroidManifest.xml:16:5-24:19
-MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\92f60a074142b38ca1e6c292c2bf6db0\AndroidManifest.xml:16:5-24:19
-MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\026536b2ea82a151739632f685c7d021\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\026536b2ea82a151739632f685c7d021\AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\23a6e605f99cf5ac0a5263107ff8670c\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\23a6e605f99cf5ac0a5263107ff8670c\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\f8d0122ee6de6b5871879dbf9f9477f6\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\f8d0122ee6de6b5871879dbf9f9477f6\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\7e1974b96830f99a7bed17860761c971\AndroidManifest.xml:25:5-37:19
-MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\7e1974b96830f99a7bed17860761c971\AndroidManifest.xml:25:5-37:19
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\4106fd2a7f76aac0e0c4308f1b19a96b\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\4106fd2a7f76aac0e0c4308f1b19a96b\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\282a0ecba3dc6df85feb92a923d8fc20\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\282a0ecba3dc6df85feb92a923d8fc20\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\f3d15e3f5028ec3693acebbb4c68f5d2\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\f3d15e3f5028ec3693acebbb4c68f5d2\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.core:core:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\01423f166136421616cca4f66dfeb3a0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\01423f166136421616cca4f66dfeb3a0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\aeedb38c26920f8bf89ea810c290f968\AndroidManifest.xml:24:5-30:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\aeedb38c26920f8bf89ea810c290f968\AndroidManifest.xml:24:5-30:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\ee1bbeebd83d335014f85d082fbe9db8\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\ee1bbeebd83d335014f85d082fbe9db8\AndroidManifest.xml:24:5-25:19
-	android:appComponentFactory
-		ADDED from [androidx.core:core:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\01423f166136421616cca4f66dfeb3a0\AndroidManifest.xml:24:18-86
-	android:supportsRtl
-		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:14:9-35
-	android:label
-		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:11:9-41
-	android:hardwareAccelerated
-		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:9:9-44
-	android:roundIcon
-		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:13:9-54
-	android:largeHeap
-		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:12:9-33
-	android:icon
-		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:10:9-39
-	android:allowBackup
-		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:8:9-35
-	android:theme
-		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:15:9-40
-activity#com.example.android.insaniyat.HomeActivity
-ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:16:9-19:68
-	android:label
-		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:18:13-56
-	android:theme
-		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:19:13-56
+		ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:6:5-81
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-navigation:0.42.6] /home/anas/.gradle/caches/transforms-2/files-2.1/794c1d5ec6e1be38608cd975427b2f20/AndroidManifest.xml:9:5-81
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-navigation:0.42.6] /home/anas/.gradle/caches/transforms-2/files-2.1/794c1d5ec6e1be38608cd975427b2f20/AndroidManifest.xml:9:5-81
 	android:name
-		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:17:13-41
-activity#com.example.android.insaniyat.ProfileActivity
-ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:20:9-53
-	android:name
-		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:20:19-50
-activity#com.example.android.insaniyat.SplashActivity
-ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:21:9-27:20
-	android:name
-		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:21:19-49
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:22:13-26:29
-action#android.intent.action.MAIN
-ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:23:17-69
-	android:name
-		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:23:25-66
-category#android.intent.category.LAUNCHER
-ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:25:17-77
-	android:name
-		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:25:27-74
-activity#com.example.android.insaniyat.SignupActivity
-ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:28:9-52
-	android:name
-		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:28:19-49
-activity#com.example.android.insaniyat.LoginActivity
-ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:29:9-51
-	android:name
-		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:29:19-48
-activity#com.example.android.insaniyat.MainActivity
-ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:30:9-50
-	android:name
-		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml:30:19-47
-uses-sdk
-INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml
-INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml
-MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\538a5966e9b26bd3dc78e91066dc9d53\AndroidManifest.xml:20:5-43
-MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\538a5966e9b26bd3dc78e91066dc9d53\AndroidManifest.xml:20:5-43
-MERGED from [androidx.navigation:navigation-ui:2.2.2] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\84f6a160b67b1cab87a66912817ce079\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui:2.2.2] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\84f6a160b67b1cab87a66912817ce079\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.material:material:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\72052352f426332cace3ac1abfc26757\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\72052352f426332cace3ac1abfc26757\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\e1b5cd0398aff73759961d9f2b083bed\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\e1b5cd0398aff73759961d9f2b083bed\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\93847d13d85f6fa25453dc5ba20680cd\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\93847d13d85f6fa25453dc5ba20680cd\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\a47f151b5994f20d796dd453b588b2de\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\a47f151b5994f20d796dd453b588b2de\AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-fragment:2.2.2] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\654ecf86219e5952bb406bc74cc50732\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-fragment:2.2.2] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\654ecf86219e5952bb406bc74cc50732\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\510c44162b7281631760505d669f0b6c\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\510c44162b7281631760505d669f0b6c\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1523bb4127f6f7e77b8c4a1d7a67d601\AndroidManifest.xml:21:5-44
-MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1523bb4127f6f7e77b8c4a1d7a67d601\AndroidManifest.xml:21:5-44
-MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\92f60a074142b38ca1e6c292c2bf6db0\AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\92f60a074142b38ca1e6c292c2bf6db0\AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\026536b2ea82a151739632f685c7d021\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\026536b2ea82a151739632f685c7d021\AndroidManifest.xml:5:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\ebe5f528346c16a06e9c219f48bdf8c2\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\ebe5f528346c16a06e9c219f48bdf8c2\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\59cf470a66990029c2b1f73f84347895\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\59cf470a66990029c2b1f73f84347895\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\79aea39b6a2c52c46812f8aef3ff121a\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\79aea39b6a2c52c46812f8aef3ff121a\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\3ed26056c9271c306210305d7a6582bb\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\3ed26056c9271c306210305d7a6582bb\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\b152c83f6ff4869c30bd42c9c6f317fd\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\b152c83f6ff4869c30bd42c9c6f317fd\AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\c9307808f61456f6d0336c3cbb2f2cce\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\c9307808f61456f6d0336c3cbb2f2cce\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\3d8ca22ca226bbaaa9288b54a6ab67c6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\3d8ca22ca226bbaaa9288b54a6ab67c6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\e9e4c30e8edbe325c5cbc15c92e37480\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\e9e4c30e8edbe325c5cbc15c92e37480\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\2224e6d95b94a334162c49787bdf73a3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\2224e6d95b94a334162c49787bdf73a3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\aa1876706fd5a3160689006f3a30e319\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\aa1876706fd5a3160689006f3a30e319\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\23a6e605f99cf5ac0a5263107ff8670c\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\23a6e605f99cf5ac0a5263107ff8670c\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\f8d0122ee6de6b5871879dbf9f9477f6\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\f8d0122ee6de6b5871879dbf9f9477f6\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\7e1974b96830f99a7bed17860761c971\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\7e1974b96830f99a7bed17860761c971\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\4106fd2a7f76aac0e0c4308f1b19a96b\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\4106fd2a7f76aac0e0c4308f1b19a96b\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\282a0ecba3dc6df85feb92a923d8fc20\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\282a0ecba3dc6df85feb92a923d8fc20\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\f3d15e3f5028ec3693acebbb4c68f5d2\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\f3d15e3f5028ec3693acebbb4c68f5d2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\b301dff71206c7563c8cd17c975796bf\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\b301dff71206c7563c8cd17c975796bf\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\18eaa2b56618b004acfe6f31b9f5d627\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\18eaa2b56618b004acfe6f31b9f5d627\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\d95754937ec6cf3ebfadb8f7d8817cff\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\d95754937ec6cf3ebfadb8f7d8817cff\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\0bbaf97e69e65dc8a045e2da7db85bb9\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\0bbaf97e69e65dc8a045e2da7db85bb9\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\a513f455f80c8d6b5fb636d595a04efe\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\a513f455f80c8d6b5fb636d595a04efe\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\968085e29d59973095740707c6e3bdea\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\968085e29d59973095740707c6e3bdea\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\2b4c5236cf8cb8739c5f20a7c30f5090\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\2b4c5236cf8cb8739c5f20a7c30f5090\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\b7eba73fda8008750f4bbae67503b353\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\b7eba73fda8008750f4bbae67503b353\AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-runtime:2.2.2] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1390908d74984290986406328683de54\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime:2.2.2] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1390908d74984290986406328683de54\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\ac140fd8c8c3a2b0edecf515de182dc6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\ac140fd8c8c3a2b0edecf515de182dc6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common:2.2.2] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\e6fa266e0cb8986a81e5358f7e674176\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common:2.2.2] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\e6fa266e0cb8986a81e5358f7e674176\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\01423f166136421616cca4f66dfeb3a0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\01423f166136421616cca4f66dfeb3a0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\5dc07afb47bc29e37f046cc1921c174a\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\5dc07afb47bc29e37f046cc1921c174a\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\cf93b52c4e20a968fb607eea7318c7ef\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\cf93b52c4e20a968fb607eea7318c7ef\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\aeedb38c26920f8bf89ea810c290f968\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\aeedb38c26920f8bf89ea810c290f968\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\ef199a240297a7d5b798eb5ea89abf78\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\ef199a240297a7d5b798eb5ea89abf78\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\843c53d6cd30ba428272b88bcf2c394c\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\843c53d6cd30ba428272b88bcf2c394c\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\4d264f093de072d5567d1da5890d2e06\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\4d264f093de072d5567d1da5890d2e06\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\70d964eb605f965d6fa8ac6a581411d6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\70d964eb605f965d6fa8ac6a581411d6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\0e6d2c4ad6a616b77414447eaa849b69\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\0e6d2c4ad6a616b77414447eaa849b69\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\2a64269d071571f2b1cf28f2d993492f\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\2a64269d071571f2b1cf28f2d993492f\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\26330d129e4a2f1de59456f839ab173c\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\26330d129e4a2f1de59456f839ab173c\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\de0bd4788cccbb4acc2293fc1ccb2aff\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\de0bd4788cccbb4acc2293fc1ccb2aff\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\bac05602de8d50fee90483aed9abe713\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\bac05602de8d50fee90483aed9abe713\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\47417dd0de4e3d9310168edc62a2c63f\AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\47417dd0de4e3d9310168edc62a2c63f\AndroidManifest.xml:19:5-21:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\ee1bbeebd83d335014f85d082fbe9db8\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\ee1bbeebd83d335014f85d082fbe9db8\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\fc62f1808deb84fc1eb32fc56010dbe8\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\fc62f1808deb84fc1eb32fc56010dbe8\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\0890a35cb19693b6c570e5174855839a\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\0890a35cb19693b6c570e5174855839a\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\45be69d46ec92ac92479bd62dc1f7031\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\45be69d46ec92ac92479bd62dc1f7031\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\db5cae10e8dff852500f9be184fa48aa\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\db5cae10e8dff852500f9be184fa48aa\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\5bd22fbcea912f42e33f70c243236b30\AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\5bd22fbcea912f42e33f70c243236b30\AndroidManifest.xml:7:5-9:41
-MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\3211b78e4520db7a23766a3bb8241d3a\AndroidManifest.xml:7:5-9:41
-MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\3211b78e4520db7a23766a3bb8241d3a\AndroidManifest.xml:7:5-9:41
-INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml
-INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml
-	android:targetSdkVersion
-		INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml
-		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml
-		INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml
-	android:minSdkVersion
-		INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml
-		ADDED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml
-		INJECTED from P:\8th_Semester\FYP-II\Projects\Insaniyat\app\src\main\AndroidManifest.xml
-activity#com.google.firebase.auth.internal.FederatedSignInActivity
-ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1523bb4127f6f7e77b8c4a1d7a67d601\AndroidManifest.xml:24:9-31:50
-	android:excludeFromRecents
-		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1523bb4127f6f7e77b8c4a1d7a67d601\AndroidManifest.xml:26:13-46
-	android:launchMode
-		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1523bb4127f6f7e77b8c4a1d7a67d601\AndroidManifest.xml:28:13-44
-	android:exported
-		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1523bb4127f6f7e77b8c4a1d7a67d601\AndroidManifest.xml:27:13-36
-	android:permission
-		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1523bb4127f6f7e77b8c4a1d7a67d601\AndroidManifest.xml:29:13-102
-	android:theme
-		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1523bb4127f6f7e77b8c4a1d7a67d601\AndroidManifest.xml:30:13-72
-	tools:replace
-		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1523bb4127f6f7e77b8c4a1d7a67d601\AndroidManifest.xml:31:13-47
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1523bb4127f6f7e77b8c4a1d7a67d601\AndroidManifest.xml:25:13-85
-service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1523bb4127f6f7e77b8c4a1d7a67d601\AndroidManifest.xml:33:9-39:19
-MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\92f60a074142b38ca1e6c292c2bf6db0\AndroidManifest.xml:17:9-23:19
-MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\92f60a074142b38ca1e6c292c2bf6db0\AndroidManifest.xml:17:9-23:19
-MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\7e1974b96830f99a7bed17860761c971\AndroidManifest.xml:32:9-36:35
-MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\7e1974b96830f99a7bed17860761c971\AndroidManifest.xml:32:9-36:35
-	android:exported
-		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1523bb4127f6f7e77b8c4a1d7a67d601\AndroidManifest.xml:35:13-37
-	tools:targetApi
-		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\7e1974b96830f99a7bed17860761c971\AndroidManifest.xml:36:13-32
-	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\7e1974b96830f99a7bed17860761c971\AndroidManifest.xml:34:13-43
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1523bb4127f6f7e77b8c4a1d7a67d601\AndroidManifest.xml:34:13-84
-meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
-ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1523bb4127f6f7e77b8c4a1d7a67d601\AndroidManifest.xml:36:13-38:85
-	android:value
-		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1523bb4127f6f7e77b8c4a1d7a67d601\AndroidManifest.xml:38:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\1523bb4127f6f7e77b8c4a1d7a67d601\AndroidManifest.xml:37:17-109
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\92f60a074142b38ca1e6c292c2bf6db0\AndroidManifest.xml:13:5-79
-MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\3211b78e4520db7a23766a3bb8241d3a\AndroidManifest.xml:11:5-79
-MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\3211b78e4520db7a23766a3bb8241d3a\AndroidManifest.xml:11:5-79
-	android:name
-		ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\92f60a074142b38ca1e6c292c2bf6db0\AndroidManifest.xml:13:22-76
+		ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:6:22-78
 uses-permission#android.permission.INTERNET
-ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\92f60a074142b38ca1e6c292c2bf6db0\AndroidManifest.xml:14:5-67
+ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:7:5-67
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/anas/.gradle/caches/transforms-2/files-2.1/e2bcb699c969e7d34931557a898805f7/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/anas/.gradle/caches/transforms-2/files-2.1/e2bcb699c969e7d34931557a898805f7/AndroidManifest.xml:14:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/cb0527b14afd7f41cfe3dbb51f6e2780/AndroidManifest.xml:16:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/cb0527b14afd7f41cfe3dbb51f6e2780/AndroidManifest.xml:16:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/anas/.gradle/caches/transforms-2/files-2.1/e8412505c65d7f1e16e4c0fd3a525c7a/AndroidManifest.xml:15:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/anas/.gradle/caches/transforms-2/files-2.1/e8412505c65d7f1e16e4c0fd3a525c7a/AndroidManifest.xml:15:5-67
 	android:name
-		ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\92f60a074142b38ca1e6c292c2bf6db0\AndroidManifest.xml:14:22-64
-meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
-ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\92f60a074142b38ca1e6c292c2bf6db0\AndroidManifest.xml:20:13-22:85
-	android:value
-		ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\92f60a074142b38ca1e6c292c2bf6db0\AndroidManifest.xml:22:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\92f60a074142b38ca1e6c292c2bf6db0\AndroidManifest.xml:21:17-111
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\f8d0122ee6de6b5871879dbf9f9477f6\AndroidManifest.xml:23:9-26:75
-	android:exported
-		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\f8d0122ee6de6b5871879dbf9f9477f6\AndroidManifest.xml:25:13-37
+		ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:7:22-64
+application
+ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:9:5-35:19
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-navigation-ui:0.42.6] /home/anas/.gradle/caches/transforms-2/files-2.1/4c1ff67e3e0f21cb75a1b8024ca394e1/AndroidManifest.xml:9:5-11:19
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-navigation-ui:0.42.6] /home/anas/.gradle/caches/transforms-2/files-2.1/4c1ff67e3e0f21cb75a1b8024ca394e1/AndroidManifest.xml:9:5-11:19
+MERGED from [com.google.android.material:material:1.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/fc033dd333cdf3e70e18ba758ebcc67a/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/fc033dd333cdf3e70e18ba758ebcc67a/AndroidManifest.xml:22:5-20
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-navigation:0.42.6] /home/anas/.gradle/caches/transforms-2/files-2.1/794c1d5ec6e1be38608cd975427b2f20/AndroidManifest.xml:13:5-15:19
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-navigation:0.42.6] /home/anas/.gradle/caches/transforms-2/files-2.1/794c1d5ec6e1be38608cd975427b2f20/AndroidManifest.xml:13:5-15:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/anas/.gradle/caches/transforms-2/files-2.1/578c06568f09efa826b73d6ac50d075e/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/anas/.gradle/caches/transforms-2/files-2.1/578c06568f09efa826b73d6ac50d075e/AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/a78780d14f93cf894f5b8b42c8bc46e7/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/a78780d14f93cf894f5b8b42c8bc46e7/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/f92c00873769a0db2279f5f6d86499f7/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/f92c00873769a0db2279f5f6d86499f7/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/anas/.gradle/caches/transforms-2/files-2.1/e2bcb699c969e7d34931557a898805f7/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/anas/.gradle/caches/transforms-2/files-2.1/e2bcb699c969e7d34931557a898805f7/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/11afeaccb9a6bc74e3c16b314588331b/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/11afeaccb9a6bc74e3c16b314588331b/AndroidManifest.xml:7:5-20
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/anas/.gradle/caches/transforms-2/files-2.1/e8412505c65d7f1e16e4c0fd3a525c7a/AndroidManifest.xml:17:5-27:19
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/anas/.gradle/caches/transforms-2/files-2.1/e8412505c65d7f1e16e4c0fd3a525c7a/AndroidManifest.xml:17:5-27:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/c23a6dba684eb6a68ab08663e1050f63/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/c23a6dba684eb6a68ab08663e1050f63/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/623dd2982acf1c5cc3f67bbe9bd999ab/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/623dd2982acf1c5cc3f67bbe9bd999ab/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/anas/.gradle/caches/transforms-2/files-2.1/04ed0f84681861b9b25e1ed40b75278e/AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/anas/.gradle/caches/transforms-2/files-2.1/04ed0f84681861b9b25e1ed40b75278e/AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/0ba0d4083dcceb3fd0cdd04e982d6498/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/0ba0d4083dcceb3fd0cdd04e982d6498/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/457865b8f9675d7ee9dbd83f41cef143/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/457865b8f9675d7ee9dbd83f41cef143/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/db47cfea951125d4859a9927e7baf84b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/db47cfea951125d4859a9927e7baf84b/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/02d4b26d956407d787eb52d43596f3cf/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/02d4b26d956407d787eb52d43596f3cf/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/bad0edef80d600166563d340e6238c11/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/bad0edef80d600166563d340e6238c11/AndroidManifest.xml:24:5-30:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/anas/.gradle/caches/transforms-2/files-2.1/1bea19056262e5bf9f247460c6a181e2/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/anas/.gradle/caches/transforms-2/files-2.1/1bea19056262e5bf9f247460c6a181e2/AndroidManifest.xml:7:5-12:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/11e3c1698a9e3d281d31a9d5aa1e2b8e/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/11e3c1698a9e3d281d31a9d5aa1e2b8e/AndroidManifest.xml:24:5-25:19
+MERGED from [com.jakewharton.timber:timber:4.7.1] /home/anas/.gradle/caches/transforms-2/files-2.1/ca3fc1ca3e7e3cc3dc9052babe77a74b/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] /home/anas/.gradle/caches/transforms-2/files-2.1/ca3fc1ca3e7e3cc3dc9052babe77a74b/AndroidManifest.xml:7:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/02d4b26d956407d787eb52d43596f3cf/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:16:9-35
+	android:label
+		ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:13:9-41
+	android:hardwareAccelerated
+		ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:11:9-44
+	android:roundIcon
+		ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:15:9-54
+	android:largeHeap
+		ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:14:9-33
+	android:icon
+		ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:12:9-39
+	android:allowBackup
+		ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\f8d0122ee6de6b5871879dbf9f9477f6\AndroidManifest.xml:26:13-72
+		ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:17:9-40
+activity#com.example.android.insaniyat.OpenMap
+ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:18:9-54
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\f8d0122ee6de6b5871879dbf9f9477f6\AndroidManifest.xml:24:13-79
-provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\7e1974b96830f99a7bed17860761c971\AndroidManifest.xml:26:9-30:39
-	android:authorities
-		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\7e1974b96830f99a7bed17860761c971\AndroidManifest.xml:28:13-72
+		ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:18:19-42
+activity#com.example.android.insaniyat.HomeActivity
+ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:19:9-22:59
+	android:label
+		ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:21:13-56
+	android:theme
+		ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:22:13-56
+	android:name
+		ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:20:13-41
+activity#com.example.android.insaniyat.ProfileActivity
+ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:23:9-53
+	android:name
+		ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:23:19-50
+activity#com.example.android.insaniyat.SplashActivity
+ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:25:9-31:20
+	android:name
+		ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:25:19-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:26:13-30:29
+action#android.intent.action.MAIN
+ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:29:27-74
+activity#com.example.android.insaniyat.SignupActivity
+ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:32:9-52
+	android:name
+		ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:32:19-49
+activity#com.example.android.insaniyat.LoginActivity
+ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:33:9-51
+	android:name
+		ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:33:19-48
+activity#com.example.android.insaniyat.MainActivity
+ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:34:9-50
+	android:name
+		ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml:34:19-47
+uses-sdk
+INJECTED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml
+INJECTED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml
+MERGED from [androidx.multidex:multidex:2.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/6c6f6b302381c5f75e27300dc731a987/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/6c6f6b302381c5f75e27300dc731a987/AndroidManifest.xml:20:5-43
+MERGED from [androidx.navigation:navigation-ui:2.2.2] /home/anas/.gradle/caches/transforms-2/files-2.1/92d5eb81b9ff3b79e0fa82c3d30ef718/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.2.2] /home/anas/.gradle/caches/transforms-2/files-2.1/92d5eb81b9ff3b79e0fa82c3d30ef718/AndroidManifest.xml:20:5-22:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-navigation-ui:0.42.6] /home/anas/.gradle/caches/transforms-2/files-2.1/4c1ff67e3e0f21cb75a1b8024ca394e1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-navigation-ui:0.42.6] /home/anas/.gradle/caches/transforms-2/files-2.1/4c1ff67e3e0f21cb75a1b8024ca394e1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/fc033dd333cdf3e70e18ba758ebcc67a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/fc033dd333cdf3e70e18ba758ebcc67a/AndroidManifest.xml:20:5-44
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-navigation:0.42.6] /home/anas/.gradle/caches/transforms-2/files-2.1/794c1d5ec6e1be38608cd975427b2f20/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-navigation:0.42.6] /home/anas/.gradle/caches/transforms-2/files-2.1/794c1d5ec6e1be38608cd975427b2f20/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-annotation-v8:0.7.0] /home/anas/.gradle/caches/transforms-2/files-2.1/f1233a59cdedb6985300bf300ed37ba8/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-annotation-v8:0.7.0] /home/anas/.gradle/caches/transforms-2/files-2.1/f1233a59cdedb6985300bf300ed37ba8/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/fc829a94bd0822a3e09f360b0ac747e5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/fc829a94bd0822a3e09f360b0ac747e5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/anas/.gradle/caches/transforms-2/files-2.1/578c06568f09efa826b73d6ac50d075e/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/anas/.gradle/caches/transforms-2/files-2.1/578c06568f09efa826b73d6ac50d075e/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/a94fb9eb4dfdc408705c5fd8399b3927/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/a94fb9eb4dfdc408705c5fd8399b3927/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.2.2] /home/anas/.gradle/caches/transforms-2/files-2.1/834482338d45e5b382c4b393849d7e80/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.2.2] /home/anas/.gradle/caches/transforms-2/files-2.1/834482338d45e5b382c4b393849d7e80/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/a78780d14f93cf894f5b8b42c8bc46e7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/a78780d14f93cf894f5b8b42c8bc46e7/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/f92c00873769a0db2279f5f6d86499f7/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/f92c00873769a0db2279f5f6d86499f7/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/anas/.gradle/caches/transforms-2/files-2.1/e2bcb699c969e7d34931557a898805f7/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/anas/.gradle/caches/transforms-2/files-2.1/e2bcb699c969e7d34931557a898805f7/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/11afeaccb9a6bc74e3c16b314588331b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/11afeaccb9a6bc74e3c16b314588331b/AndroidManifest.xml:5:5-44
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/cb0527b14afd7f41cfe3dbb51f6e2780/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/cb0527b14afd7f41cfe3dbb51f6e2780/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/fe067d60faf80e2d090118688d76fd55/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/fe067d60faf80e2d090118688d76fd55/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/d34f141bf9c2cc5a4952f66aecf5d132/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/d34f141bf9c2cc5a4952f66aecf5d132/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/2a2c042d06c5731861297ec2fd98ff3d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/2a2c042d06c5731861297ec2fd98ff3d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/fd1f56f570c64fdea9f8b245a905182f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/fd1f56f570c64fdea9f8b245a905182f/AndroidManifest.xml:20:5-44
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/anas/.gradle/caches/transforms-2/files-2.1/e8412505c65d7f1e16e4c0fd3a525c7a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/anas/.gradle/caches/transforms-2/files-2.1/e8412505c65d7f1e16e4c0fd3a525c7a/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/d534e16d0a6a0b905a5f743609006717/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/d534e16d0a6a0b905a5f743609006717/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/266f6567b3635a880ad2b236d67b3cde/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/266f6567b3635a880ad2b236d67b3cde/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/9b01e89f25de1327e3eb5431d58ba98b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/9b01e89f25de1327e3eb5431d58ba98b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/e9e8234290ea05be08dc50c4f612b188/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/e9e8234290ea05be08dc50c4f612b188/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/c9982891ba884cdd60a620a54358dbf3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/c9982891ba884cdd60a620a54358dbf3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/e60737d14413fe182903a9f54dd3deb2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/e60737d14413fe182903a9f54dd3deb2/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/c23a6dba684eb6a68ab08663e1050f63/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/c23a6dba684eb6a68ab08663e1050f63/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/623dd2982acf1c5cc3f67bbe9bd999ab/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/623dd2982acf1c5cc3f67bbe9bd999ab/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/anas/.gradle/caches/transforms-2/files-2.1/04ed0f84681861b9b25e1ed40b75278e/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/anas/.gradle/caches/transforms-2/files-2.1/04ed0f84681861b9b25e1ed40b75278e/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/0ba0d4083dcceb3fd0cdd04e982d6498/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/0ba0d4083dcceb3fd0cdd04e982d6498/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/457865b8f9675d7ee9dbd83f41cef143/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/457865b8f9675d7ee9dbd83f41cef143/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/db47cfea951125d4859a9927e7baf84b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/db47cfea951125d4859a9927e7baf84b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.2.4] /home/anas/.gradle/caches/transforms-2/files-2.1/280479cbce1bdb66d4641ce23030e247/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] /home/anas/.gradle/caches/transforms-2/files-2.1/280479cbce1bdb66d4641ce23030e247/AndroidManifest.xml:20:5-22:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.7.0] /home/anas/.gradle/caches/transforms-2/files-2.1/387ae703c406bef6fd0147b587363cea/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.7.0] /home/anas/.gradle/caches/transforms-2/files-2.1/387ae703c406bef6fd0147b587363cea/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/0311dede7ea7ae3456e22871de2d0340/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/0311dede7ea7ae3456e22871de2d0340/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/0101084feba70a39eb41ba04a461829f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/0101084feba70a39eb41ba04a461829f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/e2e99e6635d1290aa637fb98eef55958/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/e2e99e6635d1290aa637fb98eef55958/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/6c7ef2e286c32e50201cd25e85744b6e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/6c7ef2e286c32e50201cd25e85744b6e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/ab93e624f5185322e875651d1671f017/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/ab93e624f5185322e875651d1671f017/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/dc10379e4f5c0c8f0586bb24b8ea3a7e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/dc10379e4f5c0c8f0586bb24b8ea3a7e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/8a7eaa3916e9554b02dfd8bdaedf7d61/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/8a7eaa3916e9554b02dfd8bdaedf7d61/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.2.2] /home/anas/.gradle/caches/transforms-2/files-2.1/e43b55caae4c878f09c94fb05b6273d2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.2.2] /home/anas/.gradle/caches/transforms-2/files-2.1/e43b55caae4c878f09c94fb05b6273d2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/7288379f1bbc473dd230caed516485a5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/7288379f1bbc473dd230caed516485a5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.2.2] /home/anas/.gradle/caches/transforms-2/files-2.1/99d47c20f64088f3529a922a4d759640/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.2.2] /home/anas/.gradle/caches/transforms-2/files-2.1/99d47c20f64088f3529a922a4d759640/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/02d4b26d956407d787eb52d43596f3cf/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/02d4b26d956407d787eb52d43596f3cf/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/6eef966562437eaa877decca0f5ecfaf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/6eef966562437eaa877decca0f5ecfaf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/c7ac3db64841ffa840c3e77997f42bf1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/c7ac3db64841ffa840c3e77997f42bf1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/bad0edef80d600166563d340e6238c11/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/bad0edef80d600166563d340e6238c11/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/d17a36e3749e9d8dab24111550ba6743/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/d17a36e3749e9d8dab24111550ba6743/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/ae8360db7682a28806654c12f1d05273/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/ae8360db7682a28806654c12f1d05273/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/e80e0c98d1b912600ee7e0af0d6f441c/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/e80e0c98d1b912600ee7e0af0d6f441c/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/efbf5fd8a852039ccd0eff8452d17e57/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/efbf5fd8a852039ccd0eff8452d17e57/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/21a99c7b15c2a0e5318ea1ffc143d1ce/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/21a99c7b15c2a0e5318ea1ffc143d1ce/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/b369d2f634cd5d2770a34a9d13819605/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/b369d2f634cd5d2770a34a9d13819605/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/00b18f423049abc40f59050a51db11c8/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/00b18f423049abc40f59050a51db11c8/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/ded8d5dc3ba75028390ff36fa6d82cf2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/ded8d5dc3ba75028390ff36fa6d82cf2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/565eb84fa194ba887a2ba398a60cebff/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/565eb84fa194ba887a2ba398a60cebff/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:16.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/e8a3696601615cf369bfadfd4f9eb3b6/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/e8a3696601615cf369bfadfd4f9eb3b6/AndroidManifest.xml:19:5-21:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-accounts:0.7.0] /home/anas/.gradle/caches/transforms-2/files-2.1/859e831c5b3878ed4d51c5555b757c8f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-accounts:0.7.0] /home/anas/.gradle/caches/transforms-2/files-2.1/859e831c5b3878ed4d51c5555b757c8f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/anas/.gradle/caches/transforms-2/files-2.1/1bea19056262e5bf9f247460c6a181e2/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/anas/.gradle/caches/transforms-2/files-2.1/1bea19056262e5bf9f247460c6a181e2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/11e3c1698a9e3d281d31a9d5aa1e2b8e/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/11e3c1698a9e3d281d31a9d5aa1e2b8e/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/c4c094137efcb25a76d6f1941b4a28fd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/c4c094137efcb25a76d6f1941b4a28fd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/0756b732dd0afc1259463536b61c5967/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/0756b732dd0afc1259463536b61c5967/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/972dedff6ff5258a27d6a01596bf175e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/972dedff6ff5258a27d6a01596bf175e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/e841612d7881a97efe1fa6065a56e31c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/e841612d7881a97efe1fa6065a56e31c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/bbe46ef293bd4ce0b54ab534687978b8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/bbe46ef293bd4ce0b54ab534687978b8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/e03514f127eefe4d923505a0b5f67565/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/e03514f127eefe4d923505a0b5f67565/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.21.0] /home/anas/.gradle/caches/transforms-2/files-2.1/f48b2384b108785df6a57e49c40aa4ad/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.21.0] /home/anas/.gradle/caches/transforms-2/files-2.1/f48b2384b108785df6a57e49c40aa4ad/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:2.0.1] /home/anas/.gradle/caches/transforms-2/files-2.1/439980f090bcb602c707f54b29b21f86/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:2.0.1] /home/anas/.gradle/caches/transforms-2/files-2.1/439980f090bcb602c707f54b29b21f86/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.navigator:mapbox-navigation-native:7.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/6310251edeedadf67bbe9c51cb806811/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigator:mapbox-navigation-native:7.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/6310251edeedadf67bbe9c51cb806811/AndroidManifest.xml:5:5-7:41
+MERGED from [com.jakewharton.timber:timber:4.7.1] /home/anas/.gradle/caches/transforms-2/files-2.1/ca3fc1ca3e7e3cc3dc9052babe77a74b/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:4.7.1] /home/anas/.gradle/caches/transforms-2/files-2.1/ca3fc1ca3e7e3cc3dc9052babe77a74b/AndroidManifest.xml:5:5-43
+INJECTED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml
+INJECTED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml
+		ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml
+		INJECTED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml
+		ADDED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml
+		INJECTED from /home/anas/AndroidStudioProjects/FYP/Insaniyat/app/src/main/AndroidManifest.xml
+activity#com.mapbox.services.android.navigation.ui.v5.MapboxNavigationActivity
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-navigation-ui:0.42.6] /home/anas/.gradle/caches/transforms-2/files-2.1/4c1ff67e3e0f21cb75a1b8024ca394e1/AndroidManifest.xml:10:9-106
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-navigation-ui:0.42.6] /home/anas/.gradle/caches/transforms-2/files-2.1/4c1ff67e3e0f21cb75a1b8024ca394e1/AndroidManifest.xml:10:19-103
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-navigation:0.42.6] /home/anas/.gradle/caches/transforms-2/files-2.1/794c1d5ec6e1be38608cd975427b2f20/AndroidManifest.xml:11:5-77
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-navigation:0.42.6] /home/anas/.gradle/caches/transforms-2/files-2.1/794c1d5ec6e1be38608cd975427b2f20/AndroidManifest.xml:11:22-74
+service#com.mapbox.services.android.navigation.v5.navigation.NavigationService
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-navigation:0.42.6] /home/anas/.gradle/caches/transforms-2/files-2.1/794c1d5ec6e1be38608cd975427b2f20/AndroidManifest.xml:14:9-106
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-navigation:0.42.6] /home/anas/.gradle/caches/transforms-2/files-2.1/794c1d5ec6e1be38608cd975427b2f20/AndroidManifest.xml:14:18-103
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:19.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/f92c00873769a0db2279f5f6d86499f7/AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/f92c00873769a0db2279f5f6d86499f7/AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/f92c00873769a0db2279f5f6d86499f7/AndroidManifest.xml:28:13-44
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\7e1974b96830f99a7bed17860761c971\AndroidManifest.xml:29:13-37
-	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\7e1974b96830f99a7bed17860761c971\AndroidManifest.xml:30:13-36
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/f92c00873769a0db2279f5f6d86499f7/AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/f92c00873769a0db2279f5f6d86499f7/AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/f92c00873769a0db2279f5f6d86499f7/AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/f92c00873769a0db2279f5f6d86499f7/AndroidManifest.xml:31:13-47
 	android:name
-		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\7e1974b96830f99a7bed17860761c971\AndroidManifest.xml:27:13-77
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\f3d15e3f5028ec3693acebbb4c68f5d2\AndroidManifest.xml:23:9-25:69
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/f92c00873769a0db2279f5f6d86499f7/AndroidManifest.xml:25:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:19.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/f92c00873769a0db2279f5f6d86499f7/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/anas/.gradle/caches/transforms-2/files-2.1/e2bcb699c969e7d34931557a898805f7/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/anas/.gradle/caches/transforms-2/files-2.1/e2bcb699c969e7d34931557a898805f7/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/anas/.gradle/caches/transforms-2/files-2.1/04ed0f84681861b9b25e1ed40b75278e/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/anas/.gradle/caches/transforms-2/files-2.1/04ed0f84681861b9b25e1ed40b75278e/AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/f92c00873769a0db2279f5f6d86499f7/AndroidManifest.xml:35:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/anas/.gradle/caches/transforms-2/files-2.1/04ed0f84681861b9b25e1ed40b75278e/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/anas/.gradle/caches/transforms-2/files-2.1/04ed0f84681861b9b25e1ed40b75278e/AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/f92c00873769a0db2279f5f6d86499f7/AndroidManifest.xml:34:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:19.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/f92c00873769a0db2279f5f6d86499f7/AndroidManifest.xml:36:13-38:85
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\f3d15e3f5028ec3693acebbb4c68f5d2\AndroidManifest.xml:25:13-66
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/f92c00873769a0db2279f5f6d86499f7/AndroidManifest.xml:38:17-82
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\f3d15e3f5028ec3693acebbb4c68f5d2\AndroidManifest.xml:24:13-58
-provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\aeedb38c26920f8bf89ea810c290f968\AndroidManifest.xml:25:9-29:43
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/f92c00873769a0db2279f5f6d86499f7/AndroidManifest.xml:37:17-109
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-firestore:21.3.0] /home/anas/.gradle/caches/transforms-2/files-2.1/e2bcb699c969e7d34931557a898805f7/AndroidManifest.xml:13:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/cb0527b14afd7f41cfe3dbb51f6e2780/AndroidManifest.xml:17:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/cb0527b14afd7f41cfe3dbb51f6e2780/AndroidManifest.xml:17:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/anas/.gradle/caches/transforms-2/files-2.1/e8412505c65d7f1e16e4c0fd3a525c7a/AndroidManifest.xml:13:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/anas/.gradle/caches/transforms-2/files-2.1/e8412505c65d7f1e16e4c0fd3a525c7a/AndroidManifest.xml:13:5-79
+MERGED from [io.grpc:grpc-android:1.21.0] /home/anas/.gradle/caches/transforms-2/files-2.1/f48b2384b108785df6a57e49c40aa4ad/AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.21.0] /home/anas/.gradle/caches/transforms-2/files-2.1/f48b2384b108785df6a57e49c40aa4ad/AndroidManifest.xml:11:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:2.0.1] /home/anas/.gradle/caches/transforms-2/files-2.1/439980f090bcb602c707f54b29b21f86/AndroidManifest.xml:11:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:2.0.1] /home/anas/.gradle/caches/transforms-2/files-2.1/439980f090bcb602c707f54b29b21f86/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] /home/anas/.gradle/caches/transforms-2/files-2.1/e2bcb699c969e7d34931557a898805f7/AndroidManifest.xml:13:22-76
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:21.3.0] /home/anas/.gradle/caches/transforms-2/files-2.1/e2bcb699c969e7d34931557a898805f7/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] /home/anas/.gradle/caches/transforms-2/files-2.1/e2bcb699c969e7d34931557a898805f7/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] /home/anas/.gradle/caches/transforms-2/files-2.1/e2bcb699c969e7d34931557a898805f7/AndroidManifest.xml:21:17-111
+uses-feature#0x00020000
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/cb0527b14afd7f41cfe3dbb51f6e2780/AndroidManifest.xml:9:5-11:35
+	android:glEsVersion
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/cb0527b14afd7f41cfe3dbb51f6e2780/AndroidManifest.xml:10:9-41
+	android:required
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/cb0527b14afd7f41cfe3dbb51f6e2780/AndroidManifest.xml:11:9-32
+uses-feature#android.hardware.wifi
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/cb0527b14afd7f41cfe3dbb51f6e2780/AndroidManifest.xml:12:5-14:36
+	android:required
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/cb0527b14afd7f41cfe3dbb51f6e2780/AndroidManifest.xml:14:9-33
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/cb0527b14afd7f41cfe3dbb51f6e2780/AndroidManifest.xml:13:9-45
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/cb0527b14afd7f41cfe3dbb51f6e2780/AndroidManifest.xml:18:5-76
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/anas/.gradle/caches/transforms-2/files-2.1/e8412505c65d7f1e16e4c0fd3a525c7a/AndroidManifest.xml:14:5-76
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/anas/.gradle/caches/transforms-2/files-2.1/e8412505c65d7f1e16e4c0fd3a525c7a/AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/cb0527b14afd7f41cfe3dbb51f6e2780/AndroidManifest.xml:18:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/anas/.gradle/caches/transforms-2/files-2.1/e8412505c65d7f1e16e4c0fd3a525c7a/AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/anas/.gradle/caches/transforms-2/files-2.1/e8412505c65d7f1e16e4c0fd3a525c7a/AndroidManifest.xml:12:22-65
+provider#com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/anas/.gradle/caches/transforms-2/files-2.1/e8412505c65d7f1e16e4c0fd3a525c7a/AndroidManifest.xml:18:9-22:39
 	android:authorities
-		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\aeedb38c26920f8bf89ea810c290f968\AndroidManifest.xml:27:13-69
-	android:multiprocess
-		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\aeedb38c26920f8bf89ea810c290f968\AndroidManifest.xml:29:13-40
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/anas/.gradle/caches/transforms-2/files-2.1/e8412505c65d7f1e16e4c0fd3a525c7a/AndroidManifest.xml:20:13-79
 	android:exported
-		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\aeedb38c26920f8bf89ea810c290f968\AndroidManifest.xml:28:13-37
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/anas/.gradle/caches/transforms-2/files-2.1/e8412505c65d7f1e16e4c0fd3a525c7a/AndroidManifest.xml:21:13-37
+	android:initOrder
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/anas/.gradle/caches/transforms-2/files-2.1/e8412505c65d7f1e16e4c0fd3a525c7a/AndroidManifest.xml:22:13-36
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Skuma\.gradle\caches\transforms-2\files-2.1\aeedb38c26920f8bf89ea810c290f968\AndroidManifest.xml:26:13-79
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/anas/.gradle/caches/transforms-2/files-2.1/e8412505c65d7f1e16e4c0fd3a525c7a/AndroidManifest.xml:19:13-93
+service#com.mapbox.android.telemetry.errors.ErrorReporterJobIntentService
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/anas/.gradle/caches/transforms-2/files-2.1/e8412505c65d7f1e16e4c0fd3a525c7a/AndroidManifest.xml:24:9-26:72
+	android:permission
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/anas/.gradle/caches/transforms-2/files-2.1/e8412505c65d7f1e16e4c0fd3a525c7a/AndroidManifest.xml:26:13-69
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/anas/.gradle/caches/transforms-2/files-2.1/e8412505c65d7f1e16e4c0fd3a525c7a/AndroidManifest.xml:25:13-93
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/623dd2982acf1c5cc3f67bbe9bd999ab/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/623dd2982acf1c5cc3f67bbe9bd999ab/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/623dd2982acf1c5cc3f67bbe9bd999ab/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/anas/.gradle/caches/transforms-2/files-2.1/623dd2982acf1c5cc3f67bbe9bd999ab/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.3.0] /home/anas/.gradle/caches/transforms-2/files-2.1/04ed0f84681861b9b25e1ed40b75278e/AndroidManifest.xml:26:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/anas/.gradle/caches/transforms-2/files-2.1/04ed0f84681861b9b25e1ed40b75278e/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/anas/.gradle/caches/transforms-2/files-2.1/04ed0f84681861b9b25e1ed40b75278e/AndroidManifest.xml:29:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/anas/.gradle/caches/transforms-2/files-2.1/04ed0f84681861b9b25e1ed40b75278e/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/anas/.gradle/caches/transforms-2/files-2.1/04ed0f84681861b9b25e1ed40b75278e/AndroidManifest.xml:27:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/db47cfea951125d4859a9927e7baf84b/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/db47cfea951125d4859a9927e7baf84b/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/anas/.gradle/caches/transforms-2/files-2.1/db47cfea951125d4859a9927e7baf84b/AndroidManifest.xml:24:13-58
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/bad0edef80d600166563d340e6238c11/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/bad0edef80d600166563d340e6238c11/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/bad0edef80d600166563d340e6238c11/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/bad0edef80d600166563d340e6238c11/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/anas/.gradle/caches/transforms-2/files-2.1/bad0edef80d600166563d340e6238c11/AndroidManifest.xml:26:13-79
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /home/anas/.gradle/caches/transforms-2/files-2.1/1bea19056262e5bf9f247460c6a181e2/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/anas/.gradle/caches/transforms-2/files-2.1/1bea19056262e5bf9f247460c6a181e2/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/anas/.gradle/caches/transforms-2/files-2.1/1bea19056262e5bf9f247460c6a181e2/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/anas/.gradle/caches/transforms-2/files-2.1/1bea19056262e5bf9f247460c6a181e2/AndroidManifest.xml:9:13-64

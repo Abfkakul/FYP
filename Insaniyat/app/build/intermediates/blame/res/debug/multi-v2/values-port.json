@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "P:\\8th_Semester\\FYP-II\\Projects\\Insaniyat\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+            "outputFile": "/home/anas/AndroidStudioProjects/FYP/Insaniyat/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Skuma\\.gradle\\caches\\transforms-2\\files-2.1\\e1b5cd0398aff73759961d9f2b083bed\\res\\values-port\\values-port.xml",
+                    "source": "/home/anas/.gradle/caches/transforms-2/files-2.1/4c1ff67e3e0f21cb75a1b8024ca394e1/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,112,173,238,296",
+                        "endColumns": "56,60,64,57,50",
+                        "endOffsets": "107,168,233,291,342"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "111,168,229,294,352",
+                        "endColumns": "56,60,64,57,50",
+                        "endOffsets": "163,224,289,347,398"
+                    }
+                },
+                {
+                    "source": "/home/anas/.gradle/caches/transforms-2/files-2.1/fc829a94bd0822a3e09f360b0ac747e5/res/values-port/values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1,20 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "P:\\8th_Semester\\FYP-II\\Projects\\Insaniyat\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "outputFile": "/home/anas/AndroidStudioProjects/FYP/Insaniyat/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Skuma\\.gradle\\caches\\transforms-2\\files-2.1\\e1b5cd0398aff73759961d9f2b083bed\\res\\values-land\\values-land.xml",
+                    "source": "/home/anas/.gradle/caches/transforms-2/files-2.1/4c1ff67e3e0f21cb75a1b8024ca394e1/res/values-land/values-land.xml",
                     "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,125,196",
-                        "endColumns": "69,70,67",
-                        "endOffsets": "120,191,259"
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,112,173,238,296",
+                        "endColumns": "56,60,64,57,50",
+                        "endOffsets": "107,168,233,291,342"
+                    },
+                    "to": {
+                        "startLines": "5,22,23,24,25",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "264,1479,1540,1605,1663",
+                        "endColumns": "56,60,64,57,50",
+                        "endOffsets": "316,1535,1600,1658,1709"
                     }
                 },
                 {
-                    "source": "C:\\Users\\Skuma\\.gradle\\caches\\transforms-2\\files-2.1\\72052352f426332cace3ac1abfc26757\\res\\values-land\\values-land.xml",
+                    "source": "/home/anas/.gradle/caches/transforms-2/files-2.1/fc033dd333cdf3e70e18ba758ebcc67a/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,24,30",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -24,12 +31,22 @@
                         "endOffsets": "123,193,265,335,400,467,537,609,678,747,829,919,995,1063,1130,1208,1273,1340,1512,1907,2176"
                     },
                     "to": {
-                        "startLines": "5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,27,33",
+                        "startLines": "6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,26,27,28,32,38",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "264,337,407,479,549,614,681,751,823,892,961,1043,1133,1209,1277,1344,1422,1487,1554,1726,2121",
-                        "endLines": "5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,26,32,37",
+                        "startOffsets": "321,394,464,536,606,671,738,808,880,949,1018,1100,1190,1266,1334,1401,1714,1779,1846,2018,2413",
+                        "endLines": "6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,26,27,31,37,42",
                         "endColumns": "72,69,71,69,64,66,69,71,68,68,81,89,75,67,66,77,64,66,10,10,10",
-                        "endOffsets": "332,402,474,544,609,676,746,818,887,956,1038,1128,1204,1272,1339,1417,1482,1549,1721,2116,2385"
+                        "endOffsets": "389,459,531,601,666,733,803,875,944,1013,1095,1185,1261,1329,1396,1474,1774,1841,2013,2408,2677"
+                    }
+                },
+                {
+                    "source": "/home/anas/.gradle/caches/transforms-2/files-2.1/fc829a94bd0822a3e09f360b0ac747e5/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
                     }
                 }
             ]

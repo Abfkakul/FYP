@@ -18,6 +18,8 @@
     <color name="darkskyblue">#015473</color>
     <color name="white">#FFFFFF</color>
     <color name="black">#000000</color>
+    <color name="Red">#fc031c</color>
+    <color name="Green">#19f20a</color>
 
     <color name="colorText">#dddddd</color>
     <color name="colorHint">#959595</color>
